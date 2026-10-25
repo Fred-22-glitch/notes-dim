@@ -1,0 +1,35 @@
+name: Encontrei um problema
+description: Algo não funcionou como deveria no Notes Dim
+labels: ["problema"]
+body:
+  - type: markdown
+    attributes:
+      value: Obrigado por avisar! Quanto mais detalhes, mais rápido dá para corrigir.
+  - type: dropdown
+    id: aparelho
+    attributes:
+      label: Onde aconteceu?
+      options: [PC (Windows) instalado, PC (Windows) portátil, Android]
+    validations: {required: true}
+  - type: input
+    id: versao
+    attributes:
+      label: Versão do app
+      description: Aparece em ⚙ (ex.: 0.2.5)
+    validations: {required: true}
+  - type: textarea
+    id: oque
+    attributes:
+      label: O que aconteceu?
+      placeholder: "Ex.: ao tocar duas vezes no link, a nota não abriu."
+    validations: {required: true}
+  - type: textarea
+    id: passos
+    attributes:
+      label: Como repetir o problema
+      placeholder: "1. Abri a nota...\n2. Toquei em...\n3. Aconteceu..."
+  - type: textarea
+    id: imagem
+    attributes:
+      label: Imagem da tela (opcional)
+      description: Arraste um print para cá. Não envie notas com dados pessoais.
