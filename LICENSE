@@ -1,0 +1,20 @@
+NOTES DIM - LICENÇA DE USO (EULA) E PRIVACIDADE
+Copyright (c) 2026 Dim. Todos os direitos reservados.
+
+O Notes Dim (programa, app, código, nome e ícone) é software proprietário.
+
+1. Você pode baixar, instalar e usar o Notes Dim de graça, em quantos aparelhos quiser, para uso pessoal ou profissional.
+
+2. Não é permitido: copiar, modificar, descompilar ou fazer engenharia reversa do app (salvo quando a lei permitir), redistribuir versões alteradas, vender, alugar ou sublicenciar o app ou o seu código, nem usar o nome e o ícone Notes Dim em outros produtos.
+
+3. As versões oficiais são distribuídas só pelos canais do autor. Recursos adicionais poderão ser oferecidos mediante pagamento, com termos próprios.
+
+4. Privacidade: as suas notas ficam só neste computador e, se você escolher, na pasta do Cofre. Nada é enviado ao autor ou a terceiros. A única conexão com a internet é a verificação de atualizações nos Releases do projeto no GitHub.
+
+5. Os backups automáticos ficam em Documentos\Notes Dim\backups. Desinstalar o app não apaga o Cofre nem os backups.
+
+6. O Notes Dim é fornecido "como está", sem garantias. O autor não responde por perda de dados ou outros danos, no limite permitido pela lei. Faça backups regulares.
+
+7. O app usa bibliotecas de código aberto (React, React Flow, TipTap/ProseMirror, Electron, Capacitor, Fontsource e outras), cada uma sob a sua própria licença. A lista completa está no app em Configurações > Licenças de código aberto.
+
+8. Esta licença segue as leis do Brasil.
