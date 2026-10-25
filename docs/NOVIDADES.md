@@ -2,6 +2,10 @@
 
 ## 0.2.5
 - Redimensionar post-its voltou a ser como antes da 0.2.4: a mudança deixava o canvas "agarrando" ao arrastar com o dedo.
+- Tema escuro: o texto marcado com marca-texto agora fica legível (antes ficava claro sobre o amarelo).
+- Nova tela "Licenças de código aberto" (em ⚙), com as bibliotecas usadas pelo app e suas licenças.
+- Licença de uso do Notes Dim atualizada (uso gratuito; código e marca protegidos).
+- "Como funciona" ganhou ícone próprio.
 
 ## 0.2.4
 - Redimensionar post-its, formas e quadros ficou mais fácil: cantos maiores e bordas com área larga para pegar, no mouse e no dedo.
