@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.3.1
+- Flashcards (Pro): New → Flashcards from a note. Questions are generated offline from the note (hidden text, bold, definitions, lists, tables, dates, labeled arrows). Flip the card and mark Got it / Almost / Missed it; reviews use spaced repetition, with mastery and progress charts. The deck updates when the source note changes.
+- Flashcards: on-device study AI (optional 1.1 GB download, Qwen3 1.7B or Qwen 2.5 1.5B GGUF). Windows runs it natively through node-llama-cpp (Vulkan when available); Android and the web build use wllama (llama.cpp compiled to WebAssembly). Output is constrained to a JSON schema and filtered: answers must be grounded in the note, near-duplicate and author questions are dropped. Notes never leave the device.
+- Flashcards: copyable prompt for ChatGPT/Gemini/Claude; paste the reply back to add cards (text notes only).
+- Cleaner top bar: Listen, Mind map, Share, folder and favorite moved to the ⋯ menu; dark mode moved to ⚙ Settings.
+- Arrows can be bent by dragging their middle (double-click the middle to straighten).
+- Arrows always point from the block you dragged from to the block you dropped on, and have a larger hit area.
+- Arrows: dropping an arrow near the right side of a shape now connects to that side instead of jumping to the left.
+- Windows: the window opens maximized without the white title bar; F11 toggles full screen.
+- Canvas corner controls (zoom, fit, undo) restyled to match the app.
+- Creating a note: right-click the background on Windows, long-press on Android. Double-click/double-tap no longer creates notes.
+- Dropping an arrow on empty space no longer creates a note; arrows only connect when dropped on another block.
+- Android: arrows are easier to hit with a double-tap to delete them.
+- Android: dragging the canvas across sticky notes and frames no longer gets stuck.
+- Read aloud: reads the selected text or sticky note instead of starting from the top.
+- "Appearance and sizes" is now "Settings", with a default note font option; "Support" sits right below "How it works".
+- Notebook PDF: every line of text, list item and checkbox sits on the ruled line.
+- Pro features show a preview before asking for activation.
+- Vault: the button always opens the panel, with instructions for syncing through the cloud.
+- The sidebar closes by itself when opening templates, the notebook PDF and the share image.
+
 ## 0.3.0
 - Languages: the app is now also available in English and Spanish (⚙ → language).
 - Lasso on Android: tap the lasso button next to the magnifier and drag your finger around sticky notes to select several at once.
