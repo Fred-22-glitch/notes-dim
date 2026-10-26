@@ -1,133 +1,97 @@
 <div align="center">
 
-<img src="docs/imagens/icone.png" width="112" alt="Ícone do Notes Dim"/>
+<img src="docs/imagens/icone.png" width="112" alt="Notes Dim icon"/>
 
 # Notes Dim
 
-**Notas para estudar do jeito que a sua cabeça pensa.**
-Mapas mentais, post-its, setas e desenho à mão num quadro infinito — e notas de texto que viram caderno ou livro.
-Leve, rápido, sem conta e sem anúncios. No **PC (Windows)** e no **Android**.
+A note-taking app for studying: an infinite canvas for mind maps, sticky notes, arrows and freehand drawing, plus plain text notes.
+Windows and Android. No account, no ads, no telemetry.
 
-[**Baixar a versão mais nova**](https://github.com/Fred-22-glitch/notes-dim/releases/latest) · [Novidades](docs/NOVIDADES.md) · [Como funciona](docs/GUIA.md) · [Privacidade](docs/PRIVACIDADE.md)
+[Download](https://github.com/Fred-22-glitch/notes-dim/releases/latest) · [Changelog](CHANGELOG.md) · [Guide](docs/GUIDE.md) · [Privacy](docs/PRIVACY.md)
 
 </div>
 
 ---
 
-<p align="center"><img src="docs/imagens/pc-canvas.png" alt="Mapa mental no Notes Dim (PC)" width="900"/></p>
+<p align="center"><img src="docs/imagens/pc-canvas.png" alt="Mind map on the canvas (Windows)" width="900"/></p>
 
-## Por que o Notes Dim
+> The app UI is currently in Portuguese (pt-BR) only.
 
-O Notes Dim não quer ser um Notion nem um Obsidian. Ele faz **o básico de quem estuda** — e faz bem feito:
+## Features
 
-- **Abre na hora e não atrapalha.** Clicou, escreveu. Sem configuração, sem login, sem curva de aprendizado.
-- **Pensa em mapas, não só em listas.** Post-its coloridos, setas com texto, quadros que agrupam ideias e um canvas que não acaba.
-- **Feito para memorizar.** Esconda trechos, revise com o modo Revisar e deixe o app lembrar a próxima revisão (1, 3, 7, 15, 30 e 60 dias).
-- **Suas notas são suas.** Ficam no seu aparelho e na pasta que você escolher. Nada vai para servidor nenhum.
-- **PC e celular com as mesmas funções**, cada um com o jeito certo de usar: mouse e teclado no PC, toque e gaveta no celular.
+**Canvas**
+- Sticky notes, rectangles, ellipses and frames (moving a frame moves what's inside it)
+- Arrows with heads, colors, dashes and labels; dropping an arrow on empty space creates a linked note
+- Freehand drawing: pen, highlighter and an eraser that only erases where it passes
+- Alignment guides, snap to grid, minimap and search inside the canvas
+- Presentation mode (one frame at a time, fullscreen)
+- Undo/redo, duplicate, copy and paste between notes
 
-## O que dá para fazer
+**Text notes**
+- 25 fonts, colors, highlighter, headings, lists, checklists, tables, images, quotes and code blocks
+- Continuous scroll or book mode (side-turning pages)
+- Links between notes (`[[` or Ctrl+K) and full-text search
+- ABNT (Brazilian standard) references and citations
+- Templates: lecture, summary, exam review, reading notes, thesis chapter
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Studying**
+- Hide selected text and reveal it in Review mode
+- Spaced repetition (1, 3, 7, 15, 30 and 60 days) with a "review today" filter
+- Word goals, tags, favorites and read-only mode
 
-### Canvas
-- Post-its, retângulos, elipses e **quadros** que levam as notas de dentro junto
-- **Setas** com ponta, cor, tracejado e texto; soltar a seta no vazio cria uma nota ligada
-- **Desenho à mão** (caneta, marca-texto e borracha que apaga só por onde passa)
-- Guias de alinhamento, encaixe na grade, minimapa e **busca dentro do canvas**
-- **Modo apresentação**: um quadro por vez, em tela cheia
-- Desfazer/refazer, duplicar, copiar e colar entre notas
+**Data**
+- Notes are stored as `.json` files in a folder you pick (the "vault"). Point it at a Syncthing folder to keep PC and phone in sync
+- Daily automatic backups, per-note version history, 30-day trash
+- Export to PDF, Word, Markdown, HTML, PNG (canvas) and Obsidian `.canvas`
 
-</td>
-<td width="50%" valign="top">
-
-### Notas de texto
-- Página de caderno com **25 fontes**, cores, marca-texto, títulos e listas
-- Tarefas, tabelas completas, imagens, citações e código
-- **Rolagem** contínua ou **modo Livro** com páginas passadas de lado
-- **Links entre notas** (`[[` ou Ctrl+K) e busca em todas as notas
-- **Referências ABNT** e citações prontas para o TCC
-- Modelos: aula, resumo, revisão para prova, fichamento, capítulo do TCC…
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### Estudo e memória
-- Marque trechos e esconda no modo **Revisar** — toque para revelar
-- **Revisão espaçada** com filtro "Revisar hoje"
-- Meta de palavras por nota, etiquetas e favoritas
-- Modo **só leitura** para estudar sem estragar nada
-
-</td>
-<td valign="top">
-
-### Seus dados, seguros
-- **Cofre**: escolha a pasta das notas (dá para sincronizar PC e celular com o Syncthing)
-- **Backup automático** diário e histórico de versões de cada nota
-- Lixeira com 30 dias para recuperar
-- Exporta PDF, Word, Markdown, HTML, imagem do canvas e `.canvas` do Obsidian
-
-</td>
-</tr>
-</table>
-
-## Também no celular
+## Android
 
 <p align="center">
-<img src="docs/imagens/celular-canvas.png" width="250" alt="Canvas no celular"/>&nbsp;&nbsp;
-<img src="docs/imagens/celular-texto.png" width="250" alt="Nota de texto no celular"/>&nbsp;&nbsp;
-<img src="docs/imagens/celular-menu.png" width="250" alt="Menu do celular"/>
+<img src="docs/imagens/celular-canvas.png" width="250" alt="Canvas on Android"/>&nbsp;&nbsp;
+<img src="docs/imagens/celular-texto.png" width="250" alt="Text note on Android"/>&nbsp;&nbsp;
+<img src="docs/imagens/celular-menu.png" width="250" alt="Android menu"/>
 </p>
 
-No Android o Notes Dim usa toque de verdade: **segure o dedo** no fundo para criar, **toque duas vezes** para abrir um link, a barra de formatação aparece **logo acima do teclado** só quando você escreve.
+Same features as the desktop version, adapted for touch: long-press the background to create, double-tap a link to open it, and the formatting bar sits above the keyboard.
 
-<p align="center"><img src="docs/imagens/pc-texto-escuro.png" alt="Nota de texto no tema escuro" width="900"/></p>
+<p align="center"><img src="docs/imagens/pc-texto-escuro.png" alt="Text note, dark theme" width="900"/></p>
 
-## Instalar
+## Install
 
-| | Como instalar |
-|---|---|
-| **Windows** | Baixe o `Notes-Dim-Instalador-x.y.z.exe` na [página da versão mais nova](https://github.com/Fred-22-glitch/notes-dim/releases/latest) e abra. Se o Windows mostrar "O Windows protegeu o computador", clique em **Mais informações → Executar assim mesmo**. Quer sem instalar? Use o `Notes-Dim-Portatil-x.y.z.exe`. |
-| **Android** | Baixe o `Notes-Dim-x.y.z.apk` no celular e abra. O Android pede para permitir "instalar apps desconhecidos" — é só permitir para o navegador ou para o app de arquivos. |
+Grab the files from the [latest release](https://github.com/Fred-22-glitch/notes-dim/releases/latest).
 
-**Atualizações chegam sozinhas:** quando sai uma versão nova, o app avisa e atualiza com um toque.
+- **Windows:** `Notes-Dim-Instalador-x.y.z.exe` (installer) or `Notes-Dim-Portatil-x.y.z.exe` (portable). The installer isn't code-signed, so SmartScreen may warn you: *More info → Run anyway*.
+- **Android:** `Notes-Dim-x.y.z.apk`. You'll need to allow installing apps from unknown sources for your browser or file manager.
 
-## Primeiros passos
+The installed Windows version and the Android app check GitHub Releases for updates and install them from inside the app. The portable version opens the release page instead.
 
-1. Ao abrir, escolha a **pasta do Cofre** (onde as notas ficam guardadas) — ou deixe para depois.
-2. Clique com o **botão direito** no fundo (no celular, **segure o dedo**) e escolha "Nova nota aqui".
-3. Puxe a bolinha azul de uma nota até outra para ligar as ideias.
-4. Dúvidas? No app, abra **⚙ → Como funciona** ou leia o [guia completo](docs/GUIA.md).
+## Getting started
 
-<p align="center"><img src="docs/imagens/pc-como-funciona.png" alt="Tela Como funciona" width="760"/></p>
+1. On first launch, pick a folder for your notes (you can skip this and do it later).
+2. Right-click the canvas background (long-press on Android) and choose a block type.
+3. Drag the blue dot on a note's edge to another note to connect them.
 
-## Privacidade
+The full guide is in the app under **⚙ → Como funciona**, and in [docs/GUIDE.md](docs/GUIDE.md).
 
-O Notes Dim **não tem conta, não tem anúncios e não coleta dados**. As notas ficam no seu aparelho e na pasta que você escolher. A única conexão com a internet é para procurar atualizações aqui no GitHub. Leia a [política de privacidade](docs/PRIVACIDADE.md).
+## Privacy
 
-## Problemas e sugestões
+No account, no ads, no analytics. Notes stay on your device and in the folder you choose. The only network request is the update check against the GitHub API. Details in [docs/PRIVACY.md](docs/PRIVACY.md).
 
-Encontrou um erro ou tem uma ideia? [Abra um pedido aqui](https://github.com/Fred-22-glitch/notes-dim/issues/new/choose) — toda sugestão é lida.
+## Bugs and feature requests
 
-## Apoie o Notes Dim
+Use [Issues](https://github.com/Fred-22-glitch/notes-dim/issues/new/choose). Reports in English or Portuguese are fine.
 
-O Notes Dim é feito por uma pessoa só, sem anúncios e sem coletar seus dados. Se ele ajuda nos seus estudos, um apoio de **R$ 10,00** mantém o app vivo e acelera as próximas versões:
+## Support
 
-**[Apoiar com Pix (R$ 10,00)](https://nubank.com.br/cobrar/xx14o/6ade9685-dae0-492a-bbc8-c0c2d7317304)** — ou, dentro do app, em **⚙ → Apoie o Notes Dim** (com QR Code e Pix copia e cola).
+Notes Dim is free. If you'd like to support development:
 
-Mora fora do Brasil? O Pix só funciona com bancos brasileiros — **[apoie pelo Ko-fi](https://ko-fi.com/glitch22f)** (cartão ou PayPal).
+- **Ko-fi** (card or PayPal): https://ko-fi.com/glitch22f
+- **Pix** (Brazil only): [payment link](https://nubank.com.br/cobrar/xx14o/6ade9685-dae0-492a-bbc8-c0c2d7317304), or in the app under ⚙ → Apoie o Notes Dim
 
-*Outside Brazil? Pix only works with Brazilian banks — you can **[support Notes Dim on Ko-fi](https://ko-fi.com/glitch22f)** (card or PayPal).*
+## License
 
-Contar para um amigo que estuda também ajuda muito.
+Free to use on any number of devices. Notes Dim is proprietary software: this repository contains releases and documentation, not source code. See [LICENSE](LICENSE).
 
-## Licença
+Built with React, React Flow, TipTap, Electron, Capacitor and Fontsource, among others. The full list of third-party licenses is in the app under ⚙ → Licenças de código aberto.
 
-O Notes Dim é **gratuito para usar**, em quantos aparelhos quiser. O código e a marca são de propriedade do autor — veja a [licença de uso](LICENSE).
-O app usa bibliotecas de código aberto (React, React Flow, TipTap, Electron, Capacitor, Fontsource e outras); a lista completa, com as licenças, fica no app em **⚙ → Licenças de código aberto**.
-
-<p align="center"><sub>Feito com cuidado por Dim · © 2026</sub></p>
+© 2026 Dim
