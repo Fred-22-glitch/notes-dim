@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.0
+- Languages: the app is now also available in English and Spanish (⚙ → language).
+- Lasso on Android: tap the lasso button next to the magnifier and drag your finger around sticky notes to select several at once.
+- Study streak: days in a row, weekly goal and calendar (the flame next to "Notes").
+- Read aloud: the app reads the note or the selected text; in Review mode, hidden text isn't read.
+- Notebook-style PDF: the note comes out as a lined notebook page, ready to print.
+- Share image: creates a story-sized or square image of the note.
+- Notes Dim Pro (one-time payment): text → mind map, study pack (exam prep by subject area, essay map, exam schedule, mistakes log, full ABNT reading notes) and PDF/image without the watermark, with extra papers and colors. Everything that was free stays free.
+
 ## 0.2.6
 - Added a "Support" screen (⚙ → Apoie o Notes Dim) with Pix (QR code on desktop, copy-and-paste code, payment link) and Ko-fi for people outside Brazil.
 
