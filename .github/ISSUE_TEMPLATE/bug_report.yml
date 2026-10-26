@@ -1,0 +1,32 @@
+name: Bug report
+description: Something isn't working
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [Windows (installed), Windows (portable), Android]
+    validations: {required: true}
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Shown under ⚙ (e.g. 0.2.6)
+    validations: {required: true}
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you expected and what happened instead.
+    validations: {required: true}
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. ...\n2. ...\n3. ..."
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot (optional)
+      description: Don't include notes with personal data.
