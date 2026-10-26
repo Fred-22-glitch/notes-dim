@@ -1,5 +1,8 @@
 # Novidades do Notes Dim
 
+## 0.2.6
+- Novo "Apoie o Notes Dim" (em ⚙): se o app ajuda nos seus estudos, dá para apoiar com Pix — QR Code no PC, código copia e cola ou link de pagamento. Quem mora fora do Brasil pode apoiar pelo Ko-fi.
+
 ## 0.2.5
 - Redimensionar post-its voltou a ser como antes da 0.2.4: a mudança deixava o canvas "agarrando" ao arrastar com o dedo.
 - Tema escuro: o texto marcado com marca-texto agora fica legível (antes ficava claro sobre o amarelo).
