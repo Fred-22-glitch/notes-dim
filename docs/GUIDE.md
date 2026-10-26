@@ -1,11 +1,11 @@
 # Guide
 
-The same guide as in the app (⚙ → Como funciona). The UI is in Portuguese, so menu labels are given as they appear in the app.
+The same guide as in the app (⚙ → How it works). Labels below are from the English version of the app.
 
 ## Creating notes and blocks
 
 - Right-click the canvas background to add a note, rectangle, ellipse or frame, or double-click to add a note. Shortcuts: N, R, E and Q.
-- Text notes and canvas notes are created from "Nova" at the top of the notes list.
+- Text notes and canvas notes are created from "New" at the top of the notes list.
 
 **Android:** long-press the background for the menu, or double-tap to add a note.
 
@@ -16,6 +16,13 @@ The same guide as in the app (⚙ → Como funciona). The UI is in Portuguese, s
 - The toolbar above the note changes color, links to another note, duplicates and deletes.
 
 **Android:** tap to select, drag by the ⠿ handle.
+
+## Selecting several notes
+
+- Hold Shift and drag on the background to select with a rectangle, or Ctrl-click notes.
+- With two or more notes selected, a bar appears to align, distribute and group them in a frame.
+
+**Android:** tap the Lasso button (next to the magnifier) and drag your finger around the notes. Then drag one of them by its handle to move them all.
 
 ## Connecting blocks with arrows
 
@@ -34,7 +41,7 @@ The same guide as in the app (⚙ → Como funciona). The UI is in Portuguese, s
 
 ## Read-only mode
 
-- Click "Editar" at the top to switch to "Leitura" (lock icon). You can read, scroll and follow links, but nothing changes.
+- Click "Edit" at the top to switch to "Read" (lock icon). You can read, scroll and follow links, but nothing changes.
 - Click again to go back to editing. The mode is saved per note.
 
 **Android:** in the ⋯ menu.
@@ -42,36 +49,61 @@ The same guide as in the app (⚙ → Como funciona). The UI is in Portuguese, s
 ## Review (memorization)
 
 - Select text and click the eye icon in the formatting bar to mark it as hidden.
-- Click "Revisar": marked text is hidden and the note becomes read-only. Tap hidden text to reveal it.
-- In the info bar (arrow at the bottom corner), use "agendar revisão", then answer Lembrei / Difícil / Esqueci (remembered / hard / forgot). The next review is scheduled at 1, 3, 7, 15, 30 or 60 days. The notes list has a "Revisar hoje" (review today) filter.
+- Click "Review": marked text is hidden and the note becomes read-only. Tap hidden text to reveal it.
+- In the info bar (arrow at the bottom corner), use "schedule review", then answer Remembered / Hard / Forgot. The next review is scheduled at 1, 3, 7, 15, 30 or 60 days. The notes list has a "Review today" filter.
 
-**Android:** "Revisar" is in the ⋯ menu.
+**Android:** "Review" is in the ⋯ menu.
+
+## Read aloud
+
+- Click "Listen" (speaker icon at the top) and the app reads the whole note. Select some text first to hear only that part.
+- In Review mode, hidden text isn't read. The reading speed is in ⚙.
+
+**Android:** in the ⋯ menu.
+
+## Study streak
+
+- A day counts when you write or review a note. Click the flame next to "Notes" to see your streak, the weekly goal (you pick the number of days) and a calendar.
 
 ## Text notes: scroll or book
 
-- At the top, choose "Rolagem" (continuous page) or "Livro" (side-turning pages).
+- At the top, choose "Scroll" (continuous page) or "Book" (side-turning pages).
 - In book mode, the page button with a + in the bottom bar adds a blank page.
 
 **Android:** in the ⋯ menu.
 
+## Text → mind map (Pro)
+
+- In a text note, click "Mind map" at the top: headings become blocks connected to the main topic, and the text under each heading goes inside its block. A new canvas note is created; the original stays as it is.
+
 ## Drawing
 
 - On the canvas: pencil button at the top. Pen, highlighter and eraser, each with three sizes; the eraser only erases where it passes.
-- Inside text: pencil button in the formatting bar. The drawing becomes an image; select it and use "Editar desenho" to edit it again.
+- Inside text: pencil button in the formatting bar. The drawing becomes an image; select it and use "Edit drawing" to edit it again.
+
+## Notebook PDF and share image
+
+- Export → "Notebook-style PDF" prints the note as a lined notebook page.
+- "Share" at the top creates a story-sized (1080×1920) or square image of the note. On Android it opens the system share sheet; on Windows you can save or copy it.
 
 ## Undo
 
 - Canvas: undo/redo in the corner controls (Ctrl+Z / Ctrl+Y). Inside text, use undo in the formatting bar.
-- Versions: "Versões" in the info bar keeps a copy of the note every 10 minutes of editing.
+- Versions: "Versions" in the info bar keeps a copy of the note every 10 minutes of editing.
 
 ## Vault, backups and syncing
 
-- The vault ("Cofre" button below the notes list) is the folder where notes are stored. Pick a Syncthing folder to have the same notes on PC and phone.
-- Backups run automatically. Use Exportar to save a full backup at any time.
+- The vault ("Vault" button below the notes list) is the folder where notes are stored. Pick a Syncthing folder to have the same notes on PC and phone.
+- Backups run automatically. Use Export to save a full backup at any time.
+
+## Notes Dim Pro
+
+- ⚙ → Notes Dim Pro shows what Pro includes, how to buy it (Ko-fi or Pix) and where to paste the activation key.
+- With a synced vault, the key activates Pro on your other devices automatically.
 
 ## Updates
 
-- When a new version is out, a notice with "Atualizar" appears. You can also check under ⚙ → Procurar atualização.
+- When a new version is out, a notice with "Update" appears. You can also check under ⚙ → Check for updates.
 
 ---
 
