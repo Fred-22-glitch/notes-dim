@@ -9,7 +9,7 @@ Notes Dim (the program, app, code, name and icon) is proprietary software.
 
 3. Official versions are distributed only through the author's channels. Additional features (Notes Dim Pro) are offered for a one-time payment; the activation key is personal and may not be resold or shared publicly.
 
-4. Privacy: your notes stay on your device and, if you choose, in the vault folder. Nothing is sent to the author or to third parties. The only network access is the update check against the project's GitHub Releases. Read aloud uses the device's own voice. The Pro key, if activated, is stored on the device and in the vault and is checked offline.
+4. Privacy: your notes stay on your device and, if you choose, in the vault folder. Nothing is sent to the author or to third parties. Network access is used only for the update check against the project's GitHub Releases and, if you ask for it, to download the study AI model from Hugging Face (the AI runs on the device; note text is never sent). Read aloud uses the device's own voice. The Pro key, if activated, is stored on the device and in the vault and is checked offline.
 
 5. Automatic backups are stored in Documents\Notes Dim\backups. Uninstalling the app does not delete the vault or the backups.
 
