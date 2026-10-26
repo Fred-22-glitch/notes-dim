@@ -21,7 +21,7 @@ Windows and Android. No account, no ads, no telemetry.
 
 **Canvas**
 - Sticky notes, rectangles, ellipses and frames (moving a frame moves what's inside it)
-- Arrows with heads, colors, dashes and labels; dropping an arrow on empty space creates a linked note
+- Arrows with heads, colors, dashes, labels and draggable curves
 - Freehand drawing: pen, highlighter and an eraser that only erases where it passes
 - Alignment guides, snap to grid, minimap and search inside the canvas
 - Lasso selection on Android: tap the lasso button and draw around notes to select several at once
