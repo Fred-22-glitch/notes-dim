@@ -1,20 +1,22 @@
-NOTES DIM - LICENÇA DE USO (EULA) E PRIVACIDADE
-Copyright (c) 2026 Dim. Todos os direitos reservados.
+NOTES DIM - END USER LICENSE AGREEMENT
+Copyright (c) 2026 Dim. All rights reserved.
 
-O Notes Dim (programa, app, código, nome e ícone) é software proprietário.
+Notes Dim (the program, app, code, name and icon) is proprietary software.
 
-1. Você pode baixar, instalar e usar o Notes Dim de graça, em quantos aparelhos quiser, para uso pessoal ou profissional.
+1. You may download, install and use Notes Dim free of charge, on any number of devices, for personal or professional use.
 
-2. Não é permitido: copiar, modificar, descompilar ou fazer engenharia reversa do app (salvo quando a lei permitir), redistribuir versões alteradas, vender, alugar ou sublicenciar o app ou o seu código, nem usar o nome e o ícone Notes Dim em outros produtos.
+2. You may not copy, modify, decompile or reverse engineer the app (except where permitted by law), redistribute modified versions, sell, rent or sublicense the app or its code, or use the Notes Dim name and icon in other products.
 
-3. As versões oficiais são distribuídas só pelos canais do autor. Recursos adicionais poderão ser oferecidos mediante pagamento, com termos próprios.
+3. Official versions are distributed only through the author's channels. Additional features may be offered for a fee, under separate terms.
 
-4. Privacidade: as suas notas ficam só neste computador e, se você escolher, na pasta do Cofre. Nada é enviado ao autor ou a terceiros. A única conexão com a internet é a verificação de atualizações nos Releases do projeto no GitHub.
+4. Privacy: your notes stay on your device and, if you choose, in the vault folder. Nothing is sent to the author or to third parties. The only network access is the update check against the project's GitHub Releases.
 
-5. Os backups automáticos ficam em Documentos\Notes Dim\backups. Desinstalar o app não apaga o Cofre nem os backups.
+5. Automatic backups are stored in Documents\Notes Dim\backups. Uninstalling the app does not delete the vault or the backups.
 
-6. O Notes Dim é fornecido "como está", sem garantias. O autor não responde por perda de dados ou outros danos, no limite permitido pela lei. Faça backups regulares.
+6. Notes Dim is provided "as is", without warranty of any kind. To the extent permitted by law, the author is not liable for data loss or other damages. Keep regular backups.
 
-7. O app usa bibliotecas de código aberto (React, React Flow, TipTap/ProseMirror, Electron, Capacitor, Fontsource e outras), cada uma sob a sua própria licença. A lista completa está no app em Configurações > Licenças de código aberto.
+7. The app uses open source libraries (React, React Flow, TipTap/ProseMirror, Electron, Capacitor, Fontsource and others), each under its own license. The full list is in the app under Settings > Licenças de código aberto.
 
-8. Esta licença segue as leis do Brasil.
+8. This license is governed by the laws of Brazil.
+
+This is a translation of the Portuguese license shipped with the app. If the two differ, the Portuguese version prevails.
