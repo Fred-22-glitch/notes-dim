@@ -113,6 +113,18 @@ O Notes Dim **não tem conta, não tem anúncios e não coleta dados**. As notas
 
 Encontrou um erro ou tem uma ideia? [Abra um pedido aqui](https://github.com/Fred-22-glitch/notes-dim/issues/new/choose) — toda sugestão é lida.
 
+## Apoie o Notes Dim
+
+O Notes Dim é feito por uma pessoa só, sem anúncios e sem coletar seus dados. Se ele ajuda nos seus estudos, um apoio de **R$ 10,00** mantém o app vivo e acelera as próximas versões:
+
+**[Apoiar com Pix (R$ 10,00)](https://nubank.com.br/cobrar/xx14o/6ade9685-dae0-492a-bbc8-c0c2d7317304)** — ou, dentro do app, em **⚙ → Apoie o Notes Dim** (com QR Code e Pix copia e cola).
+
+Mora fora do Brasil? O Pix só funciona com bancos brasileiros — **[apoie pelo Ko-fi](https://ko-fi.com/glitch22f)** (cartão ou PayPal).
+
+*Outside Brazil? Pix only works with Brazilian banks — you can **[support Notes Dim on Ko-fi](https://ko-fi.com/glitch22f)** (card or PayPal).*
+
+Contar para um amigo que estuda também ajuda muito.
+
 ## Licença
 
 O Notes Dim é **gratuito para usar**, em quantos aparelhos quiser. O código e a marca são de propriedade do autor — veja a [licença de uso](LICENSE).
