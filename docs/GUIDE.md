@@ -4,10 +4,10 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 ## Creating notes and blocks
 
-- Right-click the canvas background to add a note, rectangle, ellipse or frame, or double-click to add a note. Shortcuts: N, R, E and Q.
+- Right-click the canvas background to add a note, rectangle, ellipse or frame. Shortcuts: N, R, E and Q.
 - Text notes and canvas notes are created from "New" at the top of the notes list.
 
-**Android:** long-press the background for the menu, or double-tap to add a note.
+**Android:** long-press the background for the menu.
 
 ## Moving and resizing
 
@@ -27,8 +27,9 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 ## Connecting blocks with arrows
 
 - Hover or select a note to show the blue dots on its four sides. Drag a dot onto another block.
-- Dropping an arrow on empty space creates a new, connected note.
+- Drop the arrow on another block to connect them. Dropping it on empty space does nothing.
 - Right-click an arrow to change its head, color, dash style or add a label. Double-click an arrow to delete it.
+- Drag the middle of an arrow to bend it. Double-click the middle to straighten it.
 
 **Android:** select the note to show the dots. Long-press an arrow to edit it; double-tap to delete it.
 
@@ -54,9 +55,17 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 **Android:** "Review" is in the ⋯ menu.
 
+## Flashcards (Pro)
+
+- New → Flashcards from a note, then pick a note. Questions are generated offline from it: hidden text, bold/highlighted words, "term is explanation" and "term: explanation" sentences, headings with lists, tables, dates and labeled canvas arrows. The deck is listed with your notes and is refreshed when the source note changes.
+- Tap the card to flip it, then mark Got it / Almost / Missed it. Missed and almost cards come back later in the same session. Spaced repetition schedules the rest at 1, 3, 7, 15, 30 and 60 days.
+- Study AI: inside a deck, "Download the AI" fetches a small model once (~1.1 GB; Qwen3 1.7B recommended, Qwen 2.5 1.5B as an alternative). After that it reads the note and writes the questions on your device, offline. Seconds on a PC; a few minutes on a phone, and low-memory phones (< 4 GB) may not run it.
+- "Use an external AI" gives you a prompt with the note text and the expected `Q:`/`A:` format. Paste it into any chatbot, then paste the reply back into the app. Text notes only.
+- Use the trash icon on a card to drop it from the deck.
+
 ## Read aloud
 
-- Click "Listen" (speaker icon at the top) and the app reads the whole note. Select some text first to hear only that part.
+- Open the ⋯ menu at the top and click "Listen" and the app reads the whole note. Select some text first to hear only that part.
 - In Review mode, hidden text isn't read. The reading speed is in ⚙.
 
 **Android:** in the ⋯ menu.
@@ -74,7 +83,7 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 ## Text → mind map (Pro)
 
-- In a text note, click "Mind map" at the top: headings become blocks connected to the main topic, and the text under each heading goes inside its block. A new canvas note is created; the original stays as it is.
+- In a text note, open the ⋯ menu at the top and click "Mind map": headings become blocks connected to the main topic, and the text under each heading goes inside its block. A new canvas note is created; the original stays as it is.
 
 ## Drawing
 
@@ -84,7 +93,7 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 ## Notebook PDF and share image
 
 - Export → "Notebook-style PDF" prints the note as a lined notebook page.
-- "Share" at the top creates a story-sized (1080×1920) or square image of the note. On Android it opens the system share sheet; on Windows you can save or copy it.
+- "Share as image" in the ⋯ menu creates a story-sized (1080×1920) or square image of the note. On Android it opens the system share sheet; on Windows you can save or copy it.
 
 ## Undo
 
