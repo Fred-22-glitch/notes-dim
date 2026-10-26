@@ -4,6 +4,8 @@
 - No account, login, ads, tracking or usage analytics.
 - The only network access is the update check: the app queries the project's GitHub releases (`api.github.com`) and, if you choose to update, downloads the installer from there. GitHub receives the usual technical data of any request (such as your IP address), covered by GitHub's own privacy policy.
 - Android permissions: access to the vault folder you select through the system folder picker, internet (updates only), vibration (long-press feedback) and installing app updates (requested by Android when updating).
+- Read aloud uses the device's own text-to-speech voice (Windows or Android). Notes Dim doesn't send the text anywhere.
+- If you activate Notes Dim Pro, the key is stored on the device and in the vault folder. It contains the email used for the purchase and is verified offline.
 - Automatic backups stay on the device: `Documents/Notes Dim/backups` on Windows and `Android/data/app.notesdim/files/backups` on Android.
 - To remove all data, uninstall the app and delete the vault folder and the backups folder.
 
