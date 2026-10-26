@@ -1,0 +1,15 @@
+name: Feature request
+description: Suggest an idea
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Description
+      description: What would you like and what problem does it solve?
+    validations: {required: true}
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [Both, Windows only, Android only]
