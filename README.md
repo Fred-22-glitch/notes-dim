@@ -15,7 +15,7 @@ Windows and Android. No account, no ads, no telemetry.
 
 <p align="center"><img src="docs/imagens/pc-canvas.png" alt="Mind map on the canvas (Windows)" width="900"/></p>
 
-> The app UI is currently in Portuguese (pt-BR) only.
+> Available in English, Spanish and Portuguese (⚙ → language).
 
 ## Features
 
@@ -24,6 +24,7 @@ Windows and Android. No account, no ads, no telemetry.
 - Arrows with heads, colors, dashes and labels; dropping an arrow on empty space creates a linked note
 - Freehand drawing: pen, highlighter and an eraser that only erases where it passes
 - Alignment guides, snap to grid, minimap and search inside the canvas
+- Lasso selection on Android: tap the lasso button and draw around notes to select several at once
 - Presentation mode (one frame at a time, fullscreen)
 - Undo/redo, duplicate, copy and paste between notes
 
@@ -37,12 +38,15 @@ Windows and Android. No account, no ads, no telemetry.
 **Studying**
 - Hide selected text and reveal it in Review mode
 - Spaced repetition (1, 3, 7, 15, 30 and 60 days) with a "review today" filter
+- Read aloud: the whole note or the selected text, using the device's voice (hidden text is skipped in Review mode)
+- Study streak: days in a row, a weekly goal you pick, and a calendar
 - Word goals, tags, favorites and read-only mode
 
 **Data**
 - Notes are stored as `.json` files in a folder you pick (the "vault"). Point it at a Syncthing folder to keep PC and phone in sync
 - Daily automatic backups, per-note version history, 30-day trash
 - Export to PDF, Word, Markdown, HTML, PNG (canvas) and Obsidian `.canvas`
+- Notebook-style PDF (lined paper) and a story-sized or square image of a note for sharing
 
 ## Android
 
@@ -71,7 +75,7 @@ The installed Windows version and the Android app check GitHub Releases for upda
 2. Right-click the canvas background (long-press on Android) and choose a block type.
 3. Drag the blue dot on a note's edge to another note to connect them.
 
-The full guide is in the app under **⚙ → Como funciona**, and in [docs/GUIDE.md](docs/GUIDE.md).
+The full guide is in the app under **⚙ → How it works**, and in [docs/GUIDE.md](docs/GUIDE.md).
 
 ## Privacy
 
@@ -81,17 +85,27 @@ No account, no ads, no analytics. Notes stay on your device and in the folder yo
 
 Use [Issues](https://github.com/Fred-22-glitch/notes-dim/issues/new/choose). Reports in English or Portuguese are fine.
 
+## Notes Dim Pro
+
+Everything above is free. Pro is a one-time payment (no subscription) that adds:
+
+- Text → mind map: turns a text note with headings into a mind map on the canvas
+- Study pack templates: exam prep by subject area, essay map, exam study schedule, mistakes log, full reading notes (ABNT)
+- Notebook PDF and share image without the watermark, plus extra paper styles and colors
+
+You get an activation key by email and paste it under ⚙ → Notes Dim Pro. It's checked offline; no account needed.
+
 ## Support
 
-Notes Dim is free. If you'd like to support development:
+If you'd like to support development without buying Pro:
 
 - **Ko-fi** (card or PayPal): https://ko-fi.com/glitch22f
-- **Pix** (Brazil only): [payment link](https://nubank.com.br/cobrar/xx14o/6ade9685-dae0-492a-bbc8-c0c2d7317304), or in the app under ⚙ → Apoie o Notes Dim
+- **Pix** (Brazil only): [payment link](https://nubank.com.br/cobrar/xx14o/6ade9685-dae0-492a-bbc8-c0c2d7317304), or in the app under ⚙ → Support Notes Dim
 
 ## License
 
 Free to use on any number of devices. Notes Dim is proprietary software: this repository contains releases and documentation, not source code. See [LICENSE](LICENSE).
 
-Built with React, React Flow, TipTap, Electron, Capacitor and Fontsource, among others. The full list of third-party licenses is in the app under ⚙ → Licenças de código aberto.
+Built with React, React Flow, TipTap, Electron, Capacitor and Fontsource, among others. The full list of third-party licenses is in the app under ⚙ → Open source licenses.
 
 © 2026 Dim
