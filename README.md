@@ -33,14 +33,17 @@ Windows and Android. No account, no ads, no telemetry.
 - Continuous scroll or book mode (side-turning pages)
 - Links between notes (`[[` or Ctrl+K) and full-text search
 - ABNT (Brazilian standard) references and citations
-- Templates: lecture, summary, exam review, reading notes, thesis chapter
+- Templates: lecture, summary, exam review, reading notes, thesis chapter, exam study schedule, mistakes log, and an ABNT reading-notes form that builds the cover, reference and page-numbered quotes
 
 **Studying**
 - Hide selected text and reveal it in Review mode
 - Spaced repetition (1, 3, 7, 15, 30 and 60 days) with a "review today" filter
 - Read aloud: the whole note or the selected text, using the device's voice (hidden text is skipped in Review mode)
+- Flashcards from a note (hidden text, bold, definitions, lists, tables, dates, labeled arrows) or written by hand, with spaced repetition
+- Calendar: note reviews, flashcards due, and dates and tasks written in your notes; tap a day to create a journal, meeting, class or to-do note for it
 - Study streak: days in a row, a weekly goal you pick, and a calendar
 - Word goals, tags, favorites and read-only mode
+- Themes: Notebook (light/dark), Graph paper, Coffee, Marble and gold, Heirloom notebook, Watercolor, Polaroid
 
 **Data**
 - Notes are stored as `.json` files in a folder you pick (the "vault"). Point it at a Syncthing folder to keep PC and phone in sync
@@ -89,8 +92,10 @@ Use [Issues](https://github.com/Fred-22-glitch/notes-dim/issues/new/choose). Rep
 
 Everything above is free. Pro is a one-time payment (no subscription) that adds:
 
-- Text → mind map: turns a text note with headings into a mind map on the canvas
-- Study pack templates: exam prep by subject area, essay map, exam study schedule, mistakes log, full reading notes (ABNT)
+- Study AI that runs on the device (Qwen3 4B on Windows, Qwen3 1.7B on Android; downloaded once from Hugging Face): summary, main topics, quote wall, flashcards, study plan until an exam date, automatic mind map, and filling in an ABNT reference from a pasted catalog card. Long notes can go through ChatGPT, Gemini or Claude with a ready-made prompt instead. Expect seconds per chunk on a PC with a GPU and a few minutes per chunk on a phone; the Pro screen shows an estimate for your device before you buy.
+- Reading mode: read-aloud highlights the current word
+- Two extra themes: Vintage cassette and Soft cyberpunk
+- Text → mind map from headings, ENEM study pack and essay map templates
 - Notebook PDF and share image without the watermark, plus extra paper styles and colors
 
 You get an activation key by email and paste it under ⚙ → Notes Dim Pro. It's checked offline; no account needed.
