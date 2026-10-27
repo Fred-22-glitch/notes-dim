@@ -55,18 +55,34 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 **Android:** "Review" is in the ⋯ menu.
 
-## Flashcards (Pro)
+## Flashcards
 
-- New → Flashcards from a note, then pick a note. Questions are generated offline from it: hidden text, bold/highlighted words, "term is explanation" and "term: explanation" sentences, headings with lists, tables, dates and labeled canvas arrows. The deck is listed with your notes and is refreshed when the source note changes.
+- New → Other types → Flashcards from a note, then pick a note. Questions are generated offline from it: hidden text, bold/highlighted words, "term is explanation" and "term: explanation" sentences, headings with lists, tables, dates and labeled canvas arrows. The deck is listed with your notes and is refreshed when the source note changes.
 - Tap the card to flip it, then mark Got it / Almost / Missed it. Missed and almost cards come back later in the same session. Spaced repetition schedules the rest at 1, 3, 7, 15, 30 and 60 days.
-- Study AI: inside a deck, "Download the AI" fetches a small model once (~1.1 GB; Qwen3 1.7B recommended, Qwen 2.5 1.5B as an alternative). After that it reads the note and writes the questions on your device, offline. Seconds on a PC; a few minutes on a phone, and low-memory phones (< 4 GB) may not run it.
-- "Use an external AI" gives you a prompt with the note text and the expected `Q:`/`A:` format. Paste it into any chatbot, then paste the reply back into the app. Text notes only.
-- Use the trash icon on a card to drop it from the deck.
+- "Write a card" adds a question by hand. Use the trash icon on a card to drop it from the deck.
+- Pro: the study AI reads the note and writes the questions on your device, and "Use an external AI" gives you a prompt with the note text and the expected `Q:`/`A:` format to paste into any chatbot (text notes only).
+
+## Study AI (Pro)
+
+- In a note, open the ⋯ menu and tap "Study AI": smart summary and main topics (appended to the note), quote wall (a "Quote wall" note), flashcards, study plan until an exam date (a task list that shows up on the calendar), automatic mind map, and ABNT reading notes filled in from a pasted catalog card.
+- The model is downloaded once and runs offline: Qwen3 4B (2.5 GB) or Qwen3 1.7B (1.1 GB) on Windows, Qwen3 1.7B on Android. It is loaded when a task starts and unloaded when it ends.
+- Each chunk of the note takes seconds on a PC with a GPU and a few minutes on a phone. On a phone each chunk has a 6-minute limit; if it is exceeded, the task stops and keeps what was already done. Cancel stops it right away.
+- For long texts, "Very long text? Use an external AI" gives you a prompt for the summary, quotes or study plan; paste the reply back and the app brings it in.
+
+## Calendar
+
+- Calendar button next to the search box: note reviews, flashcards due, and dates written in notes (27/10/2026, 2026-10-27; in English, 10/27/2026), including tasks.
+- Tap a day to see what is on it and create a journal, meeting, class or to-do note with the date filled in.
+
+## Themes and size
+
+- ⚙ → Theme: Notebook (follows dark mode), Graph paper, Coffee, Marble and gold, Heirloom notebook, Watercolor, Polaroid. Vintage cassette and Soft cyberpunk are Pro. Handwritten fonts are only used for headings.
+- ⚙ → Size: interface and note text.
 
 ## Read aloud
 
 - Open the ⋯ menu at the top and click "Listen" and the app reads the whole note. Select some text first to hear only that part.
-- In Review mode, hidden text isn't read. The reading speed is in ⚙.
+- In Review mode, hidden text isn't read. The reading speed is in ⚙. With Pro, the reading bar shows the sentence and highlights the current word.
 
 **Android:** in the ⋯ menu.
 
@@ -107,7 +123,7 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 ## Notes Dim Pro
 
-- ⚙ → Notes Dim Pro shows what Pro includes, how to buy it (Ko-fi or Pix) and where to paste the activation key.
+- ⚙ → Notes Dim Pro shows what Pro includes, how the study AI is expected to run on your device (RAM and CPU), how to buy it (Ko-fi) and where to paste the activation key.
 - With a synced vault, the key activates Pro on your other devices automatically.
 
 ## Updates
