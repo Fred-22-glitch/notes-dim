@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.3.3
+- Themes rebuilt: each one now restyles the whole app (background, notes list, page, canvas blocks, flashcards) with inline static SVG textures, not just colors and fonts. New Pro theme: Melted ice cream. Fonts added: Special Elite, Fredoka, Cormorant Garamond (OFL).
+- Animated how-to scenes (SVG + CSS) in "How it works", and a 5-step welcome tour on first launch (also under How it works → Take the tour).
+- Settings regrouped into sections (Appearance, Language and voice, About) with an in-app font picker; Vault panel shortened (status, folder name, four actions).
+- In-note search (magnifier or Ctrl+F) via a ProseMirror decoration plugin; back/forward between opened notes (‹ ›, Alt+←/→, mouse side buttons).
+- Multi-select in the notes list (Ctrl+click or long press) to move or trash several notes.
+- Flashcards: pick how many to study, shuffle, swipe on touch devices (right got it, left missed, up almost). AI card generation runs in the background and keeps going when you switch notes.
+- Mind map layout: columns on both sides with estimated block heights (no overlap); each AI idea is its own block; questions ending in "?" become branches, so Q&A notes map without the AI.
+- Study plan takes a start date. The automatic ABNT reference fill was removed from the study AI.
+- Android: card swipe was cancelled by the scrollable card face (touch-action only applies up to the nearest scroll container); the selection bar no longer shifts the list under the finger.
+
 ## 0.3.2
 - Study AI (Pro), in the note's ⋯ menu: summary and main topics appended to the note, quote wall, flashcards, exam study plan, automatic mind map and ABNT reading notes. Everything runs on-device. Each task splits the note into chunks, constrains the model output to a JSON schema and drops results that aren't grounded in the note (quotes are picked by sentence number, so they are always verbatim).
 - External AI prompts (summary, quotes, study plan) for long texts; the pasted reply is brought back into the app.
