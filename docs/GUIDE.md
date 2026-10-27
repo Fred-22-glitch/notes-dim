@@ -58,16 +58,22 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 ## Flashcards
 
 - New → Other types → Flashcards from a note, then pick a note. Questions are generated offline from it: hidden text, bold/highlighted words, "term is explanation" and "term: explanation" sentences, headings with lists, tables, dates and labeled canvas arrows. The deck is listed with your notes and is refreshed when the source note changes.
-- Tap the card to flip it, then mark Got it / Almost / Missed it. Missed and almost cards come back later in the same session. Spaced repetition schedules the rest at 1, 3, 7, 15, 30 and 60 days.
+- Pick how many cards to study and whether they are shuffled. Tap the card to flip it, then mark Got it / Almost / Missed it (on touch devices, swipe right, left or up). Missed and almost cards come back later in the same session. Spaced repetition schedules the rest at 1, 3, 7, 15, 30 and 60 days.
 - "Write a card" adds a question by hand. Use the trash icon on a card to drop it from the deck.
 - Pro: the study AI reads the note and writes the questions on your device, and "Use an external AI" gives you a prompt with the note text and the expected `Q:`/`A:` format to paste into any chatbot (text notes only).
 
 ## Study AI (Pro)
 
-- In a note, open the ⋯ menu and tap "Study AI": smart summary and main topics (appended to the note), quote wall (a "Quote wall" note), flashcards, study plan until an exam date (a task list that shows up on the calendar), automatic mind map, and ABNT reading notes filled in from a pasted catalog card.
+- In a note, open the ⋯ menu and tap "Study AI": smart summary and main topics (appended to the note), quote wall (a "Quote wall" note), flashcards, study plan between a start date and an exam date (a task list that shows up on the calendar) and automatic mind map. Flashcard generation keeps running if you switch notes.
 - The model is downloaded once and runs offline: Qwen3 4B (2.5 GB) or Qwen3 1.7B (1.1 GB) on Windows, Qwen3 1.7B on Android. It is loaded when a task starts and unloaded when it ends.
 - Each chunk of the note takes seconds on a PC with a GPU and a few minutes on a phone. On a phone each chunk has a 6-minute limit; if it is exceeded, the task stops and keeps what was already done. Cancel stops it right away.
 - For long texts, "Very long text? Use an external AI" gives you a prompt for the summary, quotes or study plan; paste the reply back and the app brings it in.
+
+## Notes list and search
+
+- ‹ › next to ☰ go back and forward through opened notes (Alt+←/→).
+- Ctrl+click (or long press) notes in the list to move or trash several at once.
+- Magnifier in the page corner (or Ctrl+F) finds words in a text note.
 
 ## Calendar
 
@@ -76,7 +82,7 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 ## Themes and size
 
-- ⚙ → Theme: Notebook (follows dark mode), Graph paper, Coffee, Marble and gold, Heirloom notebook, Watercolor, Polaroid. Vintage cassette and Soft cyberpunk are Pro. Handwritten fonts are only used for headings.
+- ⚙ → Theme: Notebook (follows dark mode), Graph paper, Coffee, Marble and gold, Heirloom notebook, Watercolor, Polaroid. Vintage cassette, Soft cyberpunk and Melted ice cream are Pro. Each theme restyles the whole app.
 - ⚙ → Size: interface and note text.
 
 ## Read aloud
