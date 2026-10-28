@@ -15,14 +15,14 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 - With a note selected, drag the corner handles or edges to resize.
 - The toolbar above the note changes color, links to another note, duplicates and deletes.
 
-**Android:** tap to select, drag by the ⠿ handle.
+**Android:** tap to select; hold and drag the note to move it (while you are not typing in it).
 
 ## Selecting several notes
 
 - Hold Shift and drag on the background to select with a rectangle, or Ctrl-click notes.
 - With two or more notes selected, a bar appears to align, distribute and group them in a frame.
 
-**Android:** tap the Lasso button (next to the magnifier) and drag your finger around the notes. Then drag one of them by its handle to move them all.
+**Android:** tap the Lasso button (next to the magnifier) and drag your finger around the notes. Then drag one of them to move them all.
 
 ## Connecting blocks with arrows
 
@@ -65,8 +65,8 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 ## Study AI (Pro)
 
 - In a note, open the ⋯ menu and tap "Study AI": smart summary and main topics (appended to the note), quote wall (a "Quote wall" note), flashcards, study plan between a start date and an exam date (a task list that shows up on the calendar) and automatic mind map. Flashcard generation keeps running if you switch notes.
-- The model is downloaded once and runs offline: Qwen3 4B (2.5 GB) or Qwen3 1.7B (1.1 GB) on Windows, Qwen3 1.7B on Android. It is loaded when a task starts and unloaded when it ends.
-- Each chunk of the note takes seconds on a PC with a GPU and a few minutes on a phone. On a phone each chunk has a 6-minute limit; if it is exceeded, the task stops and keeps what was already done. Cancel stops it right away.
+- The model is downloaded once and runs offline: Qwen3 4B (2.5 GB) or Qwen3 1.7B (1.1 GB) on Windows; Qwen3 4B on Android phones with 6 GB of RAM or more (with less, use the external-AI prompt). It is loaded when a task starts and unloaded when it ends.
+- Each chunk of the note takes seconds on a PC with a GPU and about a minute on a phone. On a phone each chunk has a 6-minute limit; if it is exceeded, the task stops and keeps what was already done. Cancel stops it right away.
 - For long texts, "Very long text? Use an external AI" gives you a prompt for the summary, quotes or study plan; paste the reply back and the app brings it in.
 
 ## Notes list and search
