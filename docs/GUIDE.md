@@ -82,7 +82,7 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 ## Themes and size
 
-- ⚙ → Theme: Notebook (follows dark mode), Graph paper, Coffee, Marble and gold, Heirloom notebook, Watercolor, Polaroid. Vintage cassette, Soft cyberpunk and Melted ice cream are Pro. Each theme restyles the whole app.
+- ⚙ → Theme: Notebook (follows dark mode), Graph paper, Coffee, Marble and gold, Heirloom notebook, Watercolor, Polaroid. Vintage cassette, Soft cyberpunk and Melted ice cream are Pro and animated (turn it off under Settings → Appearance). Each theme restyles the whole app.
 - ⚙ → Size: interface and note text.
 
 ## Read aloud
