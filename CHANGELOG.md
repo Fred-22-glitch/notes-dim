@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.4
+- Android: removed `captureInput` from the Capacitor config. It made the WebView hand the keyboard a `TYPE_NULL` field, so accents and word suggestions didn't work.
+- Canvas notes drag from anywhere on the note while not being edited; the side drag handle is gone.
+- Menus and panels close on a tap or click outside them.
+- Themes: Vintage cassette and Soft cyberpunk (now a 2077-style terminal) were redone. Vintage cassette, Soft cyberpunk and Melted ice cream get CSS animations (spinning reels, scan lines, dripping syrup). They are on only when the device reports at least 3 GB of RAM and 4 cores, no data saver and no reduced motion; there is a toggle under Settings → Appearance.
+- Graph paper and Heirloom notebook: line height now matches the ruling, so text sits on the lines.
+- Welcome tour expanded to 10 steps; every animated scene has real text and step captions. "How it works" moved to the ⋯ menu.
+- Mobile fixes: canvas toolbar overlaps, unreadable active item in the ⋯ menu, per-font size scale for Press Start 2P and VT323.
+
 ## 0.3.3
 - Themes rebuilt: each one now restyles the whole app (background, notes list, page, canvas blocks, flashcards) with inline static SVG textures, not just colors and fonts. New Pro theme: Melted ice cream. Fonts added: Special Elite, Fredoka, Cormorant Garamond (OFL).
 - Animated how-to scenes (SVG + CSS) in "How it works", and a 5-step welcome tour on first launch (also under How it works → Take the tour).
