@@ -94,7 +94,7 @@ Use [Issues](https://github.com/Fred-22-glitch/notes-dim/issues/new/choose). Rep
 
 Everything above is free. Pro is a one-time payment (no subscription) that adds:
 
-- Study AI that runs on the device (Qwen3 4B on Windows, Qwen3 1.7B on Android; downloaded once from Hugging Face): summary, main topics, quote wall, flashcards, study plan until an exam date, and automatic mind map. Long notes can go through ChatGPT, Gemini or Claude with a ready-made prompt instead. Expect seconds per chunk on a PC with a GPU and a few minutes per chunk on a phone; the Pro screen shows an estimate for your device before you buy.
+- Study AI that runs on the device (Qwen3 4B on Windows and on Android phones with 6 GB of RAM or more, via llama.cpp; downloaded once from Hugging Face): summary, main topics, quote wall, flashcards, study plan until an exam date, and automatic mind map. Long notes can go through ChatGPT, Gemini or Claude with a ready-made prompt instead. Expect seconds per chunk on a PC with a GPU and about a minute per chunk on a phone; the Pro screen shows an estimate for your device before you buy.
 - Reading mode: read-aloud highlights the current word
 - Three extra themes: Vintage cassette, Soft cyberpunk and Melted ice cream
 - Text → mind map from headings, ENEM study pack and essay map templates
