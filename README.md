@@ -45,7 +45,7 @@ Windows and Android. No account, no ads, no telemetry.
 - Word goals, tags, favorites and read-only mode
 - Themes that restyle the whole app: Notebook (light/dark), Graph paper, Coffee, Marble and gold, Heirloom notebook, Watercolor, Polaroid
 - In-note search, back/forward between notes, multi-select to move or trash notes
-- Animated how-to and a short welcome tour
+- Animated how-to and a welcome tour
 
 **Data**
 - Notes are stored as `.json` files in a folder you pick (the "vault"). Point it at a Syncthing folder to keep PC and phone in sync
