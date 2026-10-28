@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.6
+- Android study AI now runs on native llama.cpp (tag b11900, built with the NDK and bundled as JNI libraries; CPU variants from armv8.0 to armv9.2 are picked at runtime) instead of wllama/WebAssembly. WebAssembly in the WebView used a single thread and had its own memory ceiling, which caused `ABORT` / "wllama has crashed" on any device. In a 4 GB x86_64 emulator the same short note went from 4–7 min per task to 17–31 s with the old 1.7B model.
+- Android model is now Qwen3 4B Instruct 2507 (Q4_K_M, 2.5 GB, Apache 2.0), the same as on Windows, offered only on devices that report at least ~5.2 GB of RAM (6 GB phones). Below that the on-device AI is hidden and the external-AI prompt remains. The old Qwen3 1.7B file and the wllama cache are deleted on update.
+- If the native engine fails to load, only the AI reports it; the rest of the app keeps working.
+- Flashcards on touch devices: answer by swiping (no buttons), with a one-time demo; Previous/Skip (skipped cards come back at the end); card count steps by 1 up to 20; bigger delete button.
+- Main topics of a note with headings come straight from its headings (no AI). Summary and topics scroll the page to the result. Mind map left the ⋯ menu (still in Study AI).
+- Open-source licenses screen now lists llama.cpp, nlohmann/json, wllama and node-llama-cpp.
+
 ## 0.3.4
 - Android: removed `captureInput` from the Capacitor config. It made the WebView hand the keyboard a `TYPE_NULL` field, so accents and word suggestions didn't work.
 - Canvas notes drag from anywhere on the note while not being edited; the side drag handle is gone.
