@@ -4,18 +4,20 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 ## Creating notes and blocks
 
-- Right-click the canvas background to add a note, rectangle, ellipse or frame. Shortcuts: N, R, E and Q.
+- Right-click the canvas background to add a note, rectangle, ellipse, frame or table (a 3 × 3 table that is ready to type in). Shortcuts: N, R, E, Q and T.
 - Text notes and canvas notes are created from "New" at the top of the notes list.
 
 **Android:** long-press the background for the menu.
 
 ## Moving and resizing
 
-- Click a note to select it and drag it by the ⠿ handle on its left.
-- With a note selected, drag the corner handles or edges to resize.
+- Drag a note by the ⠿ strip at its top. Dragging the text doesn't move the note.
+- With a note selected, drag its sides, bottom or corners to resize (the grab area extends a little outside the note).
+- Moving, resizing and creating snap to the dot grid; hold Alt to move freely.
+- A note can't be dragged out of view; "Show all" brings every note back into view.
 - The toolbar above the note changes color, links to another note, duplicates and deletes.
 
-**Android:** tap to select; hold and drag the note to move it (while you are not typing in it).
+**Android:** same strip at the top; the resize edges are wider. When you start typing, the canvas scrolls so the note stays above the keyboard.
 
 ## Selecting several notes
 
@@ -42,18 +44,33 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 ## Read-only mode
 
-- Click "Edit" at the top to switch to "Read" (lock icon). You can read, scroll and follow links, but nothing changes.
-- Click again to go back to editing. The mode is saved per note.
+- Click "Edit" at the top to switch to "Read" (lock icon). The top bar and the formatting bar hide; you can read, scroll and follow links, but nothing changes.
+- "Stop reading" in the corner goes back to editing. The mode is saved per note.
 
 **Android:** in the ⋯ menu.
 
-## Review (memorization)
+## Text notes: formatting
 
-- Select text and click the eye icon in the formatting bar to mark it as hidden.
-- Click "Review": marked text is hidden and the note becomes read-only. Tap hidden text to reveal it.
-- In the info bar (arrow at the bottom corner), use "schedule review", then answer Remembered / Hard / Forgot. The next review is scheduled at 1, 3, 7, 15, 30 or 60 days. The notes list has a "Review today" filter.
+- The font, size, heading and line spacing lists preview on the selected text while you hover them (or slide a finger over them). Click (or lift your finger) to apply it as a single undo step; leaving the list puts the text back.
+- The size box takes any whole number from 8 to 96; − and + change it by one.
+- Right-click a misspelled word for suggestions, "Ignore" (until you close the app) and "Add to dictionary" (Windows). The dictionary follows the app language.
+- Creating a table while the cursor is in a table puts the new one right after it.
+- Renaming the top heading of a text note renames the note, and renaming the note at the top renames the heading.
 
-**Android:** "Review" is in the ⋯ menu.
+## Mistakes notebook
+
+- New → Other types → Mistakes notebook. Each mistake has subject, topic, source, type of mistake, confidence, tags and date, and one or more questions (and sub-questions) with the question, your answer, the right answer and an explanation. These fields are long text with formatting; the formatting bar at the top works in them, images included.
+- Search, and filter by subject, type of mistake and status ("to review today", "review", "mastered").
+- "Reviewed: Remembered / Got it wrong again" schedules the next review at 1, 3, 7 and 14 days; after the last one the mistake is marked as mastered.
+
+## General review
+
+- Target button next to the calendar. Pick folders, mistake-notebook subjects, tags and a date range (nothing picked means everything) and build the session.
+- Mistakes come first (those due for review first): the answer shows only when you ask, and Remembered / Missed schedules the next review. Then the notes: open each one or skip to the next.
+
+## Mark text for flashcards
+
+- Select text and click the eye icon in the formatting bar: the marked text becomes a blank in the flashcards made from the note.
 
 ## Flashcards
 
@@ -77,8 +94,9 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 ## Calendar
 
-- Calendar button next to the search box: note reviews, flashcards due, and dates written in notes (27/10/2026, 2026-10-27; in English, 10/27/2026), including tasks.
-- Tap a day to see what is on it and create a journal, meeting, class or to-do note with the date filled in.
+- Calendar button next to the search box: reminders, and dates written in notes (27/10/2026, 2026-10-27; in English, 10/27/2026), including tasks such as the study plan. Each day shows an icon and a count per type.
+- Tap a day to see what is on it, add a reminder, or create a journal, meeting, class or to-do note with the date filled in.
+- Reminders have no time: they show up once when you open the app on that day.
 
 ## Themes and size
 
@@ -88,13 +106,9 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 ## Read aloud
 
 - Open the ⋯ menu at the top and click "Listen" and the app reads the whole note. Select some text first to hear only that part.
-- In Review mode, hidden text isn't read. The reading speed is in ⚙. With Pro, the reading bar shows the sentence and highlights the current word.
+- The reading speed is in ⚙. With Pro, the reading bar shows the sentence and highlights the current word.
 
 **Android:** in the ⋯ menu.
-
-## Study streak
-
-- A day counts when you write or review a note. Click the flame next to "Notes" to see your streak, the weekly goal (you pick the number of days) and a calendar.
 
 ## Text notes: scroll or book
 
