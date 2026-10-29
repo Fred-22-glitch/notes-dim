@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.3.7
+- Text notes are laid out as a document page: A4 width (816 px), document margins and a full page height, on a neutral background; full width on phones. Graph paper's page is now plain (the grid stays around it), so tables no longer have the paper lines running through them.
+- Canvas notes move only by the strip at their top; sides, bottom and corners resize. React Flow's resize lines had a 1 px hit area; it is now 14 px on desktop and 44 px on touch, mostly outside the note, constant across zoom levels. Snap to grid is always on (hold Alt to move freely), notes can't be dragged out of view, and the cursor shows what each area does.
+- Touch: the top connection handle's hit area no longer covers the drag strip; the canvas scrolls the note being edited above the keyboard; the note toolbar and every popup stay on screen.
+- Tables: a new table created inside a table goes after it; cells don't accept nested tables. Table creation grid works by finger (slide to pick, then "Create"), with row/column fields up to 100 × 20. On phones the table tools get their own row above the formatting bar. Ready-made 3 × 3 tables on the canvas (right-click → Table, or T).
+- Formatting: font, size, heading and line spacing lists preview on the selection while hovering or sliding a finger (`addToHistory: false`, previous state restored on leave), applied as one undo step. Exact font size 8–96. New line spacing control.
+- Spell check menu on right-click (Windows): suggestions, Ignore and Add to dictionary, using the app language's dictionary only.
+- Own dialogs, select lists and themed scrollbars replace the system ones (system file/folder pickers and the date field remain).
+- Mistakes notebook (new note type) with long formatted fields, questions and sub-questions, filters and 1/3/7/14-day review; General review session built from notes and mistakes by folder, subject, tag and date range.
+- Calendar: flashcards removed; note dates/tasks shown as icon + count per type; reminders (no time, shown once when the app opens that day).
+- Renaming a text note's top heading renames the note, and vice versa.
+- Pro: "And more!" lists everything Pro includes (single list in `pro-lista.js`); the thank-you message only shows in the session the key was activated.
+- Themes: Vintage cassette gets a small tape deck in the top bar (reels, tape moving between them, PLAY LED, slight wobble; typing speeds up the reels). Soft cyberpunk: the flashing red line is gone, replaced by static scan lines, a slower light sweep, a breathing neon border on the selected note and a <0.2 s glitch on hover. Theme animations pause when the window loses focus. In Vintage cassette, canvas note text now uses the note's own (dark) color.
+- Window buttons (minimize/maximize/close) take the top bar's colors. Top bar never wraps at 175–200% scaling; settings panel fits short windows. Read mode hides the top and formatting bars.
+- Removed: Review mode and scheduled note reviews (stored dates are cleared), study streak, ABNT reference button and reading-notes templates, ENEM templates (essay map stays in Pro), Press Start 2P font (replaced by VT323 in existing notes).
+- Tested with an automated matrix of 28 screens/menus × 10 themes on Windows and on an Android emulator (all passing), plus 100–200% scaling, 4K, ultrawide, large system font and split screen.
+
 ## 0.3.6
 - Android study AI now runs on native llama.cpp (tag b11900, built with the NDK and bundled as JNI libraries; CPU variants from armv8.0 to armv9.2 are picked at runtime) instead of wllama/WebAssembly. WebAssembly in the WebView used a single thread and had its own memory ceiling, which caused `ABORT` / "wllama has crashed" on any device. In a 4 GB x86_64 emulator the same short note went from 4–7 min per task to 17–31 s with the old 1.7B model.
 - Android model is now Qwen3 4B Instruct 2507 (Q4_K_M, 2.5 GB, Apache 2.0), the same as on Windows, offered only on devices that report at least ~5.2 GB of RAM (6 GB phones). Below that the on-device AI is hidden and the external-AI prompt remains. The old Qwen3 1.7B file and the wllama cache are deleted on update.
