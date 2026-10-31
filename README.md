@@ -41,7 +41,7 @@ Windows and Android. No account, no ads, no telemetry.
 **Studying**
 - Mistakes notebook: subject, topic, source, type of mistake, confidence, tags and date, plus questions and sub-questions with the question, your answer, the right answer and an explanation, each as formatted long text. Search, filters and spaced review (1, 3, 7 and 14 days)
 - General review: pick folders, subjects, tags and a date range; the app builds a session from your mistakes notebook and notes
-- Flashcards from a note (marked text, bold, definitions, lists, tables, dates, labeled arrows) or written by hand, with spaced repetition; pick how many to study, shuffle, swipe on touch devices
+- Flashcards written by hand or from a note (hidden text and `Q:`/`A:` lines), with spaced repetition; pick how many to study, shuffle, swipe on touch devices
 - Calendar: reminders, and dates and tasks written in your notes (study plans included); tap a day to add a reminder or create a journal, meeting, class or to-do note for it
 - Read aloud: the whole note or the selected text, using the device's voice
 - Word goals, tags, favorites and read mode (hides the toolbars)
@@ -96,7 +96,7 @@ Use [Issues](https://github.com/Fred-22-glitch/notes-dim/issues/new/choose). Rep
 
 Everything above is free. Pro is a one-time payment (no subscription) that adds:
 
-- Study AI that runs on the device (Qwen3 4B on Windows and on Android phones with 6 GB of RAM or more, via llama.cpp; downloaded once from Hugging Face): summary, main topics, quote wall, flashcards, study plan until an exam date, and automatic mind map. Long notes can go through ChatGPT, Gemini or Claude with a ready-made prompt instead. Expect seconds per chunk on a PC with a GPU and about a minute per chunk on a phone; the Pro screen shows an estimate for your device before you buy.
+- Study AI that runs on the device, downloaded once from Hugging Face (Windows: Qwen3 4B via llama.cpp; Android with 6 GB of RAM or more: Gemma 4 E2B on the GPU via LiteRT-LM, or Qwen3 4B on the CPU): summary, main topics, quote wall, flashcards, study plan until an exam date, and automatic mind map. Long notes can go through ChatGPT, Gemini or Claude with a ready-made prompt instead. Speed depends on the device; the Pro screen shows an estimate for your device before you buy.
 - Reading mode: read-aloud highlights the current word
 - Three extra themes, animated when the device can handle it: Vintage cassette, Soft cyberpunk and Melted ice cream
 - Text → mind map from headings, and the essay map template
