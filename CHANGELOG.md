@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.3.8
+- Reading surfaces (text page, canvas blocks, quotes, flashcard faces, book mode) use a solid color in every theme. Textures and ornaments stay on the app background and the page frame; animated theme effects render behind the page. A test blocks background images on those surfaces.
+- Android study AI runs on the GPU: LiteRT-LM with Gemma 4 E2B (2.6 GB, Apache 2.0), falling back to the CPU when OpenCL is missing. Qwen3 4B stays available on the CPU. Added a speed test in the Study AI screen (Android).
+- llama.cpp on Android: grammar check on the sampled token first, shared prompt prefix reused between chunks, one-line JSON, speculative copy for flashcards. Topics, study plan, mind map and quotes now use a single pass over a note outline.
+- Study AI prompts no longer put the note title in quotes followed by a colon (Gemma echoed it instead of answering), and a malformed reply gets one retry. On Windows the token limit doubled: the JSON grammar there adds line breaks and indentation that cut off mind maps.
+- Mind map rebuilt: the model returns a central topic, 3 to 5 concepts and keywords per concept, checked against the note, drawn in a radial layout.
+- Flashcards: removed the rule-based generator (bold, definitions, lists, tables, dates, arrows); without AI, cards come from `Q:`/`A:` lines, hidden text or manual entry. Deleted cards stay deleted when the AI regenerates a deck. The study count can go up to the whole deck, due cards first. AI answers that only repeat the question are dropped.
+- Flashcard feedback: removed the stamp over the card. The card takes the answer color and leaves in 0.26 s. Vibration on Android: 12 ms correct, 24 ms almost, double pulse wrong.
+- Phone menus are bottom sheets (note menu, New, sort, export, trash, vault, versions, canvas and arrow menus); close by tapping outside, dragging down or the Back button. Every menu item has an icon.
+- Study AI actions are a 3-column icon grid.
+- Phone formatting panel replaces the keyboard: font, size, heading, line spacing, colors and alignment, with the caret kept in view. Tapping the text brings the keyboard back. Desktop keeps the toolbar lists.
+- Table toolbar uses icons; on phones it wraps instead of scrolling sideways.
+- "New" is a floating button on the phone's notes list.
+- "How it works" is paged, one topic per screen, with swipe and an icon index. The tour also swipes. Removed the outdated study streak entry.
+- Contrast: secondary text in the default theme, quotes, answer buttons and the dark mode view switch now pass WCAG AA. Fixed unreadable table text in Vintage cassette, textured background in book mode, the translucent phone sidebar in Melted ice cream, and the New menu position in Polaroid and Soft cyberpunk.
+- First-run language is saved. Before, a device in English or Spanish switched the app to Portuguese on the second launch (a rule meant for users from before the language setting). Anyone already affected can change it under ⚙.
+- Flashcards: a two-word question may have one word that is not in the note ("What is supply in economics?" was dropped as off-topic).
+- Open source list now includes LiteRT-LM, Gemma 4 E2B and the Kotlin standard library.
+
 ## 0.3.7
 - Text notes are laid out as a document page: A4 width (816 px), document margins and a full page height, on a neutral background; full width on phones. Graph paper's page is now plain (the grid stays around it), so tables no longer have the paper lines running through them.
 - Canvas notes move only by the strip at their top; sides, bottom and corners resize. React Flow's resize lines had a 1 px hit area; it is now 14 px on desktop and 44 px on touch, mostly outside the note, constant across zoom levels. Snap to grid is always on (hold Alt to move freely), notes can't be dragged out of view, and the cursor shows what each area does.
