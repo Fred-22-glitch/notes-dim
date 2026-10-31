@@ -5,7 +5,7 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 ## Creating notes and blocks
 
 - Right-click the canvas background to add a note, rectangle, ellipse, frame or table (a 3 × 3 table that is ready to type in). Shortcuts: N, R, E, Q and T.
-- Text notes and canvas notes are created from "New" at the top of the notes list.
+- Text notes and canvas notes are created from "New" in the notes list (top of the list on Windows, floating in the bottom corner on phones).
 
 **Android:** long-press the background for the menu.
 
@@ -74,7 +74,7 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 ## Flashcards
 
-- New → Other types → Flashcards from a note, then pick a note. Questions are generated offline from it: hidden text, bold/highlighted words, "term is explanation" and "term: explanation" sentences, headings with lists, tables, dates and labeled canvas arrows. The deck is listed with your notes and is refreshed when the source note changes.
+- New → Other types → Flashcards from a note, then pick a note. Without the AI, cards come from `Q:`/`A:` lines and hidden text in the note, or from "Write a card". The deck is listed with your notes and is refreshed when the source note changes.
 - Pick how many cards to study and whether they are shuffled. Tap the card to flip it, then mark Got it / Almost / Missed it (on touch devices, swipe right, left or up). Missed and almost cards come back later in the same session. Spaced repetition schedules the rest at 1, 3, 7, 15, 30 and 60 days.
 - "Write a card" adds a question by hand. Use the trash icon on a card to drop it from the deck.
 - Pro: the study AI reads the note and writes the questions on your device, and "Use an external AI" gives you a prompt with the note text and the expected `Q:`/`A:` format to paste into any chatbot (text notes only).
@@ -82,8 +82,8 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 ## Study AI (Pro)
 
 - In a note, open the ⋯ menu and tap "Study AI": smart summary and main topics (appended to the note), quote wall (a "Quote wall" note), flashcards, study plan between a start date and an exam date (a task list that shows up on the calendar) and automatic mind map. Flashcard generation keeps running if you switch notes.
-- The model is downloaded once and runs offline: Qwen3 4B (2.5 GB) or Qwen3 1.7B (1.1 GB) on Windows; Qwen3 4B on Android phones with 6 GB of RAM or more (with less, use the external-AI prompt). It is loaded when a task starts and unloaded when it ends.
-- Each chunk of the note takes seconds on a PC with a GPU and about a minute on a phone. On a phone each chunk has a 6-minute limit; if it is exceeded, the task stops and keeps what was already done. Cancel stops it right away.
+- The model is downloaded once and runs offline: Qwen3 4B (2.5 GB) or Qwen3 1.7B (1.1 GB) on Windows; on Android phones with 6 GB of RAM or more, Gemma 4 E2B on the GPU (2.6 GB, recommended) or Qwen3 4B on the CPU (with less RAM, use the external-AI prompt). It is loaded when a task starts and unloaded when it ends.
+- Speed depends on the device; on Android, "Test the speed on this note" measures it. On a phone each chunk has a 6-minute limit; if it is exceeded, the task stops and keeps what was already done. Cancel stops it right away.
 - For long texts, "Very long text? Use an external AI" gives you a prompt for the summary, quotes or study plan; paste the reply back and the app brings it in.
 
 ## Notes list and search
