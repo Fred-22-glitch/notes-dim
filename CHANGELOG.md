@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.3.9
+- LAN sync, no server: pairing with a 6-digit code (ECDH P-256 + HMAC), traffic in AES-256-GCM, UDP discovery and TCP transfer. Pulls only newer notes; concurrent edits become a "(conflict)" copy, so no text is lost; a deleted note goes to the trash on the other devices. In ⚙ → Sync devices. Free.
+- Flashcards: wrong and "almost" answers no longer requeue, so each card counts once. Wrong cards are listed at the end and can be sent to the mistakes notebook without duplicates. The session is saved and resumes on the same card.
+- Flashcards start screen rebuilt: mastery ring, count, Study, Create with AI and 3 shortcuts. No explanatory text.
+- Study AI: topics, study plan, mind map and quotes read the whole note in 2,400-character parts (was a 1,200 to 1,800 outline) on the enhanced AI and on Windows; 3,500-character outline on the light AI on Android. Mind map with up to 8 concepts. A malformed reply gets 1 retry. Time estimates only once measured on the device, for notes with more than one part.
+- Phone tables: first tap selects a cell with no keyboard; second tap or the pencil edits. Bar with column −/+, row −/+, color and delete. Desktop: + and − on the edges. An empty line is kept after a table, code block or divider.
+- Drawing: uses coalesced pointer events, reducing polygonal strokes. Freehand and Assisted modes (stabilization, and correction of lines, ellipses, rectangles and triangles).
+- Phone formatting panel replaces the keyboard, with no scrolling. Undo and redo first on the bar. List ↔ numbered list changes only the selected item.
+- Book mode keeps the same width, margins and line height as Scroll. Reading mode: lock icon in the corner, below search.
+- Performance: 32 SVG-filter textures converted to WebP images, reducing the cost of opening the sidebar.
+- Themes: Soft cyberpunk color balance and glitch; Graph paper with a clip and notes as cards; simpler Watercolor. Vintage cassette removed.
+- Removed: hidden-text blanks (old marks become normal text). Sidebar grouped by file type. Holding a button shows its name.
+
 ## 0.3.8
 - Reading surfaces (text page, canvas blocks, quotes, flashcard faces, book mode) use a solid color in every theme. Textures and ornaments stay on the app background and the page frame; animated theme effects render behind the page. A test blocks background images on those surfaces.
 - Android study AI runs on the GPU: LiteRT-LM with Gemma 4 E2B (2.6 GB, Apache 2.0), falling back to the CPU when OpenCL is missing. Qwen3 4B stays available on the CPU. Added a speed test in the Study AI screen (Android).
