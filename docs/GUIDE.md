@@ -68,13 +68,9 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 - Target button next to the calendar. Pick folders, mistake-notebook subjects, tags and a date range (nothing picked means everything) and build the session.
 - Mistakes come first (those due for review first): the answer shows only when you ask, and Remembered / Missed schedules the next review. Then the notes: open each one or skip to the next.
 
-## Mark text for flashcards
-
-- Select text and click the eye icon in the formatting bar: the marked text becomes a blank in the flashcards made from the note.
-
 ## Flashcards
 
-- New → Other types → Flashcards from a note, then pick a note. Without the AI, cards come from `Q:`/`A:` lines and hidden text in the note, or from "Write a card". The deck is listed with your notes and is refreshed when the source note changes.
+- New → Other types → Flashcards from a note, then pick a note. Without the AI, cards come from `Q:`/`A:` lines in the note, or from "Write a card". The deck is listed with your notes and is refreshed when the source note changes.
 - Pick how many cards to study and whether they are shuffled. Tap the card to flip it, then mark Got it / Almost / Missed it (on touch devices, swipe right, left or up). Missed and almost cards come back later in the same session. Spaced repetition schedules the rest at 1, 3, 7, 15, 30 and 60 days.
 - "Write a card" adds a question by hand. Use the trash icon on a card to drop it from the deck.
 - Pro: the study AI reads the note and writes the questions on your device, and "Use an external AI" gives you a prompt with the note text and the expected `Q:`/`A:` format to paste into any chatbot (text notes only).
@@ -100,7 +96,7 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 ## Themes and size
 
-- ⚙ → Theme: Notebook (follows dark mode), Graph paper, Coffee, Marble and gold, Heirloom notebook, Watercolor, Polaroid. Vintage cassette, Soft cyberpunk and Melted ice cream are Pro and animated (turn it off under Settings → Appearance). Each theme restyles the whole app.
+- ⚙ → Theme: Notebook (follows dark mode), Graph paper, Coffee, Marble and gold, Heirloom notebook, Watercolor, Polaroid. Soft cyberpunk and Melted ice cream are Pro and animated (turn it off under Settings → Appearance). Each theme restyles the whole app.
 - ⚙ → Size: interface and note text.
 
 ## Read aloud
@@ -138,13 +134,16 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 ## Vault, backups and syncing
 
-- The vault ("Vault" button below the notes list) is the folder where notes are stored. Pick a Syncthing folder to have the same notes on PC and phone.
+- The vault ("Vault" button below the notes list) is the folder where notes are stored. 
 - Backups run automatically. Use Export to save a full backup at any time.
+- ⚙ → Sync devices: on one device, Show code; on the other, Enter code. After that, devices sync on their own while the app is open on the same network. Any number of devices can join.
+- If the same note changes on two devices at once, the newest stays and the other is kept as a "(conflict)" copy. A note deleted for good on one device goes to the trash on the others.
+- Windows asks for firewall permission the first time: allow it on private networks. Guest networks usually block devices from seeing each other.
 
 ## Notes Dim Pro
 
 - ⚙ → Notes Dim Pro shows what Pro includes, how the study AI is expected to run on your device (RAM and CPU), how to buy it (Ko-fi) and where to paste the activation key.
-- With a synced vault, the key activates Pro on your other devices automatically.
+- With device sync, the key activates Pro on your other devices automatically.
 
 ## Updates
 
