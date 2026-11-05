@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.4.3
+- Sidebar: inside a folder with more than one note type, notes are still grouped by type, but without the "Notes", "Canvas", "Flashcards" and "Error notebooks" headings; each note's icon already shows its type, and a thin line separates the groups.
+
 ## 0.4.2
 - Sidebar: folder icons at 20 px and note icons at 18 px (were 17 and 16); on touch screens, 44 px rows and slightly larger text. In the Cyberpunk soft and Marble and gold themes, larger folder names with tighter letter spacing.
 - Melted ice cream theme: folders get a cream background with a static drop under the icon instead of cream dripping under the name; among notes, only the open one drips.
