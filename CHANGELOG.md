@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.4.0
+- Folders with subfolders ("A/B" paths), stored as real directories in the vault. Drag a note or folder onto another folder: directly with the mouse; on touch, press, hold and drag (holding without dragging still selects). Empty folders persist and sync. The same name with different case or spacing reuses the existing folder. Folder menus: + (text note, canvas, subfolder) and ⋯ (rename, color, move, delete). New folder picks its initial content: nothing, a text note or a canvas.
+- Vault: subfolders are read recursively; a folder left with no notes is removed from disk. When the vault is reread, a note moved to another folder (text unchanged) also counts as newer.
+- Drawing: stroke points were rounded to the canvas 22 px grid; they now follow the pointer, so Freehand and Assisted behave differently. Reading mode closes and blocks drawing.
+- Desktop flashcards: larger card and buttons on wide screens; drag with the mouse or two fingers on the touchpad; arrows → got it, ← missed, ↑ almost. Source-note name and "cards created" notice removed from the deck screen. AI model in a single button (switch, remove).
+- Desktop AI: 3 to 5 cards per chunk (was 2 to 4), given the faster runtime. Model picker labels: "Recommended" and "Light, but may make mistakes".
+- Settings: "Screen size" removed (reset to 100%); font and text size on one row; dark mode and animations as toggle buttons; voice speed with − and +.
+- Phone: the selection bar sits below the selected text, no longer overlapping the system text menu.
+- How it works: Features and Customization tabs; an animation for all 26 topics (folders, links, folder color, sync and the rest).
+- Templates: Financial report and Academic report.
+- Melted ice cream theme: border animation removed from list items and drips limited to the first notes of each folder, lightening the sidebar. Calendar no longer spells out the date under the grid.
+
 ## 0.3.9
 - LAN sync, no server: pairing with a 6-digit code (ECDH P-256 + HMAC), traffic in AES-256-GCM, UDP discovery and TCP transfer. Pulls only newer notes; concurrent edits become a "(conflict)" copy, so no text is lost; a deleted note goes to the trash on the other devices. In ⚙ → Sync devices. Free.
 - Flashcards: wrong and "almost" answers no longer requeue, so each card counts once. Wrong cards are listed at the end and can be sent to the mistakes notebook without duplicates. The session is saved and resumes on the same card.
