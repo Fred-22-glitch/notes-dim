@@ -72,7 +72,7 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 
 - + on a folder: text note, canvas or subfolder. ⋯ on a folder: rename, color, move or delete.
 - Drag a note or folder onto another folder (mouse), or press, hold and drag (touch).
-- New → Folder lets you choose whether it starts with a text note, a canvas or nothing. Click the folder icon to change its color.
+- New → Folder lets you choose whether it starts with a text note, a canvas or nothing. Change its color from ⋯ → Folder color.
 
 ## Flashcards
 
