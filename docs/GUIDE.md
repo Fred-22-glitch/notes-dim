@@ -68,10 +68,16 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 - Target button next to the calendar. Pick folders, mistake-notebook subjects, tags and a date range (nothing picked means everything) and build the session.
 - Mistakes come first (those due for review first): the answer shows only when you ask, and Remembered / Missed schedules the next review. Then the notes: open each one or skip to the next.
 
+## Folders and subfolders
+
+- + on a folder: text note, canvas or subfolder. ⋯ on a folder: rename, color, move or delete.
+- Drag a note or folder onto another folder (mouse), or press, hold and drag (touch).
+- New → Folder lets you choose whether it starts with a text note, a canvas or nothing. Click the folder icon to change its color.
+
 ## Flashcards
 
 - New → Other types → Flashcards from a note, then pick a note. Without the AI, cards come from `Q:`/`A:` lines in the note, or from "Write a card". The deck is listed with your notes and is refreshed when the source note changes.
-- Pick how many cards to study and whether they are shuffled. Tap the card to flip it, then mark Got it / Almost / Missed it (on touch devices, swipe right, left or up). Missed and almost cards come back later in the same session. Spaced repetition schedules the rest at 1, 3, 7, 15, 30 and 60 days.
+- Pick how many cards to study and whether they are shuffled. Tap the card to flip it, then mark Got it / Almost / Missed it: swipe right, left or up on touch devices; on a computer, drag the card with the mouse or two fingers on the touchpad, or use the arrow keys. Missed and almost cards are listed at the end of the session. Spaced repetition schedules the rest at 1, 3, 7, 15, 30 and 60 days.
 - "Write a card" adds a question by hand. Use the trash icon on a card to drop it from the deck.
 - Pro: the study AI reads the note and writes the questions on your device, and "Use an external AI" gives you a prompt with the note text and the expected `Q:`/`A:` format to paste into any chatbot (text notes only).
 
@@ -97,7 +103,7 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 ## Themes and size
 
 - ⚙ → Theme: Notebook (follows dark mode), Graph paper, Coffee, Marble and gold, Heirloom notebook, Watercolor, Polaroid. Soft cyberpunk and Melted ice cream are Pro and animated (turn it off under Settings → Appearance). Each theme restyles the whole app.
-- ⚙ → Size: interface and note text.
+- ⚙ → Note text: font and size, on one row.
 
 ## Read aloud
 
