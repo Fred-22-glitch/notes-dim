@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.1
+- Vault shared with other apps: dot folders (.obsidian, .stversions, .trash, .space…) are no longer read, and a folder with no Notes Dim notes no longer shows up as an empty folder. In 0.4.0 those folders appeared in the sidebar and spread to other devices through sync.
+- An empty folder created in the app gets a `_pasta-notes-dim.txt` marker file that identifies it in the vault; deleting the folder removes the marker too.
+- Folder names with accents stored in decomposed form (common on Android) are treated as the same name: no duplicate folder in the list or on disk.
+- One-time cleanup on launch: empty folders registered by 0.4.0 and dot folders are dropped from the list; a note that ended up in one of them goes back to its original folder. No folders or files are deleted from disk.
+- Note date: moved from the sidebar into the note, top-right corner.
+
 ## 0.4.0
 - Folders with subfolders ("A/B" paths), stored as real directories in the vault. Drag a note or folder onto another folder: directly with the mouse; on touch, press, hold and drag (holding without dragging still selects). Empty folders persist and sync. The same name with different case or spacing reuses the existing folder. Folder menus: + (text note, canvas, subfolder) and ⋯ (rename, color, move, delete). New folder picks its initial content: nothing, a text note or a canvas.
 - Vault: subfolders are read recursively; a folder left with no notes is removed from disk. When the vault is reread, a note moved to another folder (text unchanged) also counts as newer.
