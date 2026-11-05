@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.4
+- More compact text notes in every theme. On phones: page edge to edge (12 px side padding), no gap above the page, 1.5 line height (was 1.75), tighter paragraphs and lists; in Melted ice cream, the cream band at the top of the page is thinner. On desktop: 1.6 line height and less paragraph spacing. The Inherited notebook theme keeps its ruled lines.
+- Cyberpunk soft: the date at the top of the page is dark over the yellow band.
+
 ## 0.4.3
 - Sidebar: inside a folder with more than one note type, notes are still grouped by type, but without the "Notes", "Canvas", "Flashcards" and "Error notebooks" headings; each note's icon already shows its type, and a thin line separates the groups.
 
