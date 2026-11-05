@@ -36,12 +36,12 @@ Windows and Android. No account, no ads, no telemetry.
 - Spell check with suggestions on right-click (Windows)
 - Continuous scroll or book mode (side-turning pages)
 - Links between notes (`[[` or Ctrl+K) and full-text search; renaming the note's top heading renames the note
-- Templates: lecture, summary, exam review, thesis chapter, exam study schedule, shopping list, to-do, checklist, meeting, journal and mind map
+- Templates: lecture, summary, exam review, thesis chapter, exam study schedule, shopping list, to-do, checklist, meeting, journal, financial report, academic report and mind map
 
 **Studying**
 - Mistakes notebook: subject, topic, source, type of mistake, confidence, tags and date, plus questions and sub-questions with the question, your answer, the right answer and an explanation, each as formatted long text. Search, filters and spaced review (1, 3, 7 and 14 days)
 - General review: pick folders, subjects, tags and a date range; the app builds a session from your mistakes notebook and notes
-- Flashcards written by hand or from a note (`Q:`/`A:` lines), with spaced repetition; pick how many to study, shuffle, swipe on touch devices
+- Flashcards written by hand or from a note (`Q:`/`A:` lines), with spaced repetition; pick how many to study, shuffle, swipe on touch devices or drag with the mouse and arrow keys on a computer
 - Calendar: reminders, and dates and tasks written in your notes (study plans included); tap a day to add a reminder or create a journal, meeting, class or to-do note for it
 - Read aloud: the whole note or the selected text, using the device's voice
 - Word goals, tags, favorites and read mode (hides the toolbars)
@@ -50,7 +50,7 @@ Windows and Android. No account, no ads, no telemetry.
 - Animated how-to and a welcome tour
 
 **Data**
-- Notes are stored as `.json` files in a folder you pick (the "vault")
+- Notes are stored as `.json` files in a folder you pick (the "vault"), with folders and subfolders you can drag notes into
 - LAN sync between your devices with a 6-digit pairing code: no server, no account, encrypted. Both apps must be open on the same network
 - Daily automatic backups, per-note version history, 30-day trash
 - Export to PDF, Word, Markdown, HTML, PNG (canvas) and Obsidian `.canvas`
