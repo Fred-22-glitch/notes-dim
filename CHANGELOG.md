@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.2
+- Sidebar: folder icons at 20 px and note icons at 18 px (were 17 and 16); on touch screens, 44 px rows and slightly larger text. In the Cyberpunk soft and Marble and gold themes, larger folder names with tighter letter spacing.
+- Melted ice cream theme: folders get a cream background with a static drop under the icon instead of cream dripping under the name; among notes, only the open one drips.
+- Tapping the folder icon now opens and closes the folder; color is set from ⋯ → Folder color.
+
 ## 0.4.1
 - Vault shared with other apps: dot folders (.obsidian, .stversions, .trash, .space…) are no longer read, and a folder with no Notes Dim notes no longer shows up as an empty folder. In 0.4.0 those folders appeared in the sidebar and spread to other devices through sync.
 - An empty folder created in the app gets a `_pasta-notes-dim.txt` marker file that identifies it in the vault; deleting the folder removes the marker too.
