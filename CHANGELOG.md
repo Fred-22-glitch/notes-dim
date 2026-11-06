@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.4.5
+- Sidebar as a tree: every level has the same indent and a thin guide line; a subfolder and a note at the same level start at the same x, and the folder color moves to the guide line.
+- Notes outside folders: a note created from New (text, canvas or error notebook) goes to the end of the list, after the folders, and is stored at the vault root. While dragging a note, a "Drop here: outside any folder" zone appears.
+- Touch drag: 0.35 s hold (was 0.42 s), more tolerance for finger jitter, and the row lifts once it can be dragged. Fixed: after a touch drag, the next tap on the list was ignored.
+- Settings as collapsible topics (Appearance, Note text, Language and voice, Sync devices, About), content indented. "Stop syncing" is now a button, like Show code and Enter code.
+- Note menu no longer has "Move note" (dragging in the list does it).
+- Templates in two categories, Study and Everyday; the "Study pack" heading is gone (the Pro template keeps its badge on the card).
+
 ## 0.4.4
 - More compact text notes in every theme. On phones: page edge to edge (12 px side padding), no gap above the page, 1.5 line height (was 1.75), tighter paragraphs and lists; in Melted ice cream, the cream band at the top of the page is thinner. On desktop: 1.6 line height and less paragraph spacing. The Inherited notebook theme keeps its ruled lines.
 - Cyberpunk soft: the date at the top of the page is dark over the yellow band.
