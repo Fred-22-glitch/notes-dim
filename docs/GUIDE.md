@@ -71,7 +71,8 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 ## Folders and subfolders
 
 - + on a folder: text note, canvas or subfolder. ⋯ on a folder: rename, color, move or delete.
-- Drag a note or folder onto another folder (mouse), or press, hold and drag (touch).
+- Drag a note or folder onto another folder (mouse), or press, hold and drag (touch). Drop it on "outside any folder" to move it to the top level.
+- Notes created from New go to the top level, after the folders.
 - New → Folder lets you choose whether it starts with a text note, a canvas or nothing. Change its color from ⋯ → Folder color.
 
 ## Flashcards
