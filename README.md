@@ -5,7 +5,7 @@
 # Notes Dim
 
 A note-taking app for studying: an infinite canvas for mind maps, sticky notes, arrows and freehand drawing, plus plain text notes.
-Windows and Android. No account, no ads, no telemetry.
+Windows, Linux and Android. No account, no ads, no telemetry.
 
 [Download](https://github.com/Fred-22-glitch/notes-dim/releases/latest) · [Changelog](CHANGELOG.md) · [Guide](docs/GUIDE.md) · [Privacy](docs/PRIVACY.md)
 
@@ -72,10 +72,11 @@ Same features as the desktop version, adapted for touch: long-press the backgrou
 
 Grab the files from the [latest release](https://github.com/Fred-22-glitch/notes-dim/releases/latest).
 
-- **Windows:** `Notes-Dim-Instalador-x.y.z.exe` (installer) or `Notes-Dim-Portatil-x.y.z.exe` (portable). The installer isn't code-signed, so SmartScreen may warn you: *More info → Run anyway*.
+- **Windows:** `Notes-Dim-Instalador-x.y.z.exe` (installer) or `Notes-Dim-Portatil-x.y.z.zip` (portable: unzip and run `Notes Dim.exe`). The installer isn't code-signed, so SmartScreen may warn you: *More info → Run anyway*.
+- **Linux:** `Notes-Dim-x.y.z-amd64.deb` (Ubuntu, Debian: `sudo apt install ./Notes-Dim-x.y.z-amd64.deb`) or `Notes-Dim-x.y.z-x86_64.AppImage` (`chmod +x`, then run).
 - **Android:** `Notes-Dim-x.y.z.apk`. You'll need to allow installing apps from unknown sources for your browser or file manager.
 
-The installed Windows version and the Android app check GitHub Releases for updates and install them from inside the app. The portable version opens the release page instead.
+The installed Windows version and the Android app check GitHub Releases for updates and install them from inside the app (the Windows installer is verified against the published SHA-256). The portable and Linux versions open the release page instead.
 
 ## Getting started
 
@@ -97,7 +98,7 @@ Use [Issues](https://github.com/Fred-22-glitch/notes-dim/issues/new/choose). Rep
 
 Everything above is free. Pro is a one-time payment (no subscription) that adds:
 
-- Study AI that runs on the device, downloaded once from Hugging Face (Windows: Qwen3 4B via llama.cpp; Android with 6 GB of RAM or more: Gemma 4 E2B on the GPU via LiteRT-LM, or Qwen3 4B on the CPU): summary, main topics, quote wall, flashcards, study plan until an exam date, and automatic mind map. Long notes can go through ChatGPT, Gemini or Claude with a ready-made prompt instead. Speed depends on the device; the Pro screen shows an estimate for your device before you buy.
+- Study AI that runs on the device, downloaded once from Hugging Face (Windows and Linux: Qwen3 4B via llama.cpp; Android with 6 GB of RAM or more: Gemma 4 E2B on the GPU via LiteRT-LM, or Qwen3 4B on the CPU): summary, main topics, quote wall, flashcards, study plan until an exam date, and automatic mind map. Long notes can go through ChatGPT, Gemini or Claude with a ready-made prompt instead. Speed depends on the device; the Pro screen shows an estimate for your device before you buy.
 - Reading mode: read-aloud highlights the current word
 - Two extra themes, animated when the device can handle it: Soft cyberpunk and Melted ice cream
 - Text → mind map from headings, and the essay map template
@@ -116,6 +117,6 @@ If you'd like to support development without buying Pro:
 
 Free to use on any number of devices. Notes Dim is proprietary software: this repository contains releases and documentation, not source code. See [LICENSE](LICENSE).
 
-Built with React, React Flow, TipTap, Electron, Capacitor and Fontsource, among others. The full list of third-party licenses is in the app under ⚙ → Open source licenses.
+Built with React, React Flow, TipTap, Tauri, Capacitor and Fontsource, among others. The full list of third-party licenses is in the app under ⚙ → Open source licenses.
 
 © 2026 Dim
