@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.0
+- Desktop: moved from Electron to Tauri (Rust). Same UI; the installer drops from 147 MB to 18 MB. Notes, vault, backups, downloaded AI models, Pro key and sync pairing carry over (0.4.6 data read on first launch). The installer removes the previous version.
+- Desktop: the study AI runs on llama.cpp (Vulkan when a GPU is available), started only when the AI is used and closed afterwards. Same models and response format.
+- Desktop: native title bar (light or dark to match the theme). Auto-update verifies the new installer against the SHA-256 published with the release.
+- Linux: new build, as .deb (Ubuntu, Debian) and .AppImage.
+- LAN sync protocol unchanged: 0.5.0 talks to Android and to desktops still on 0.4.x.
+
 ## 0.4.6
 - Desktop: writes the app data (settings, Pro key, sync pairing and notes) to a handoff file (`migracao.json`, in the app data folder) on launch, on every backup and before updating. Desktop 0.5.0 reads this file on first launch. No changes on Android.
 
