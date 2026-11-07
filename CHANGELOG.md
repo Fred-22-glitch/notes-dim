@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.4.6
+- Desktop: writes the app data (settings, Pro key, sync pairing and notes) to a handoff file (`migracao.json`, in the app data folder) on launch, on every backup and before updating. Desktop 0.5.0 reads this file on first launch. No changes on Android.
+
 ## 0.4.5
 - Sidebar as a tree: every level has the same indent and a thin guide line; a subfolder and a note at the same level start at the same x, and the folder color moves to the guide line.
 - Notes outside folders: a note created from New (text, canvas or error notebook) goes to the end of the list, after the folders, and is stored at the vault root. While dragging a note, a "Drop here: outside any folder" zone appears.
