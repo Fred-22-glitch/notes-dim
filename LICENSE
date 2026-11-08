@@ -1,19 +1,19 @@
 NOTES DIM - END USER LICENSE AGREEMENT
 Copyright (c) 2026 Dim. All rights reserved.
 
-Notes Dim (the program, app, code, name and icon) is proprietary software.
+Station Notes (the program, app, code, name and icon) is proprietary software.
 
-1. You may download, install and use Notes Dim free of charge, on any number of devices, for personal or professional use.
+1. You may download, install and use Station Notes free of charge, on any number of devices, for personal or professional use.
 
-2. You may not copy, modify, decompile or reverse engineer the app (except where permitted by law), redistribute modified versions, sell, rent or sublicense the app or its code, or use the Notes Dim name and icon in other products.
+2. You may not copy, modify, decompile or reverse engineer the app (except where permitted by law), redistribute modified versions, sell, rent or sublicense the app or its code, or use the Station Notes name and icon in other products.
 
-3. Official versions are distributed only through the author's channels. Additional features (Notes Dim Pro) are offered for a one-time payment; the activation key is personal and may not be resold or shared publicly.
+3. Official versions are distributed only through the author's channels. Additional features (Station Notes Pro) are offered for a one-time payment; the activation key is personal and may not be resold or shared publicly.
 
 4. Privacy: your notes stay on your device and, if you choose, in the vault folder. Nothing is sent to the author or to third parties. Network access is used only for the update check against the project's GitHub Releases and, if you ask for it, to download the study AI model from Hugging Face (the AI runs on the device; note text is never sent). Read aloud uses the device's own voice. The Pro key, if activated, is stored on the device and in the vault and is checked offline.
 
-5. Automatic backups are stored in Documents\Notes Dim\backups. Uninstalling the app does not delete the vault or the backups.
+5. Automatic backups are stored in Documents\Station Notes\backups. Uninstalling the app does not delete the vault or the backups.
 
-6. Notes Dim is provided "as is", without warranty of any kind. To the extent permitted by law, the author is not liable for data loss or other damages. Keep regular backups.
+6. Station Notes is provided "as is", without warranty of any kind. To the extent permitted by law, the author is not liable for data loss or other damages. Keep regular backups.
 
 7. The app uses open source libraries (React, React Flow, TipTap/ProseMirror, Electron, Capacitor, Fontsource and others), each under its own license. The full list is in the app under Settings > Licenças de código aberto.
 
