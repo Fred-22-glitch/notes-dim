@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.5.1
+- **Notes Dim is now called Station Notes.** Same app: updating keeps notes, vault, backups, Pro key and sync. On desktop, backups move to Documents/Station Notes/backups (old ones move too), and Android exports go to Downloads/Station Notes.
+- Practice exam (study AI, Pro): 5 multiple-choice questions drawn from the note, one at a time, with an explanation for each answer and a score at the end. Answer with the keyboard (1–4 or A–D); can be saved as a note.
+- Welcome note on first launch: a checklist to tick while trying the features.
+- Favorites in a folder at the top of the list; one tap opens the note.
+- Settings → Storage used: how much space images take (per note and in total) and how much is in the trash. "Shrink images" resizes photos to at most 1200 px as WebP, without changing their size in the note.
+- Drawing: line, arrow, rectangle and ellipse (drag), more stroke widths and any color.
+- Text: default font Helvetica, size 20. The formatting bar stays at the top. Pasted text takes the note's font and size.
+- Lists: deleting the bullet with Backspace turns it into a normal paragraph, with no indent; turning the list off removes only the item at the cursor.
+- Shortcuts: Ctrl+N creates a text note in the current folder; in flashcards, Space flips the card and 1, 2 and 3 answer Wrong, Hard and Easy.
+- Short sound (desktop) and vibration (phone) when answering flashcards and practice exams and when the AI finishes, with a different sound per theme. Toggle in Settings → Appearance.
+- Canvas: curved arrows leaving from the side of the block, Obsidian-style, with the arrowhead in the theme color. On desktop, a block drags by clicking anywhere on it and holding.
+- Themes: Marble & gold is replaced by Titanium & emerald: a dark theme, black with subtle brushed titanium, silver details and bold emerald on headings, buttons, selection and arrows. Coffee gets a dark sidebar and caramel accents. Inherited notebook ruling follows the font size, with kraft paper behind the canvas. Watercolor shows the canvas over watercolor paper with washed blocks. Melted ice cream keeps the cream attached to the block.
+- Desktop: minimize, maximize and close buttons drawn by the app in the theme colors. Export opens a "Save as" dialog (before, "Export to other apps" did nothing). PDF without the page address and without the note name twice; ruled notebook aligned in the PDF.
+- Desktop: font size picked from a list on hover; no + and − buttons.
+- Fixed: selecting text and releasing the mouse outside the letters cleared the selection.
+- Vault settings: backup info moved under "Backups". "Image to share" left Export (it is in the "…" menu).
+- Read-aloud prefers a female voice again.
+
 ## 0.5.0
 - Desktop: moved from Electron to Tauri (Rust). Same UI; the installer drops from 147 MB to 18 MB. Notes, vault, backups, downloaded AI models, Pro key and sync pairing carry over (0.4.6 data read on first launch). The installer removes the previous version.
 - Desktop: the study AI runs on llama.cpp (Vulkan when a GPU is available), started only when the AI is used and closed afterwards. Same models and response format.
