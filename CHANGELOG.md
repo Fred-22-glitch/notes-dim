@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.5.2
+- Desktop: fixed auto-update. From 0.5.0 to 0.5.1 the installer was closed together with the app and the old version stayed. Anyone on 0.5.0 gets 0.5.2 normally.
+- Export always opens "Save as" to pick the folder and file name (on Android, the system file manager). A notice with the file name shows at the end.
+- Study AI runs in the background: after asking for a summary, topics, quotes, study plan, mind map or quick quiz, you can close the screen and use the app. When it is done, a notice with "Open" shows up, with vibration and sound; with the app closed, a system notification (Android) or the taskbar icon flashing (desktop).
+- The practice exam is now called Quick quiz: 5 questions at a time and, at the end, "5 more questions" without repeating earlier ones. The ones you got wrong go to the mistakes notebook, now at the top of the list, above Favorites.
+- AI pays more attention to context: when the note says "currently", "today" or "actually", the most recent information counts; ironic comments and jokes do not become questions or flashcards.
+- New sounds for each theme: pencil and tearing paper on paper themes, water drop on Watercolor, cup on Coffee, shutter on Polaroid, metal chimes on Titanium, data stream and "access denied" on Cyberpunk, bubbles on Ice cream. Turning "Sounds" on in Appearance plays a sample.
+- Slightly more spacing in text (lines and paragraphs), easier to read.
+- Dragging a note to another folder: the list no longer moves with the finger and scrolls by itself near the edges, faster the closer you get.
+- Titanium: toolbar buttons with a silver outline (on phones the bar was a solid black block).
+- Android: the dot in the middle of canvas arrows is invisible (you can still bend the arrow); the "Improved AI" menu opens inside the screen and explains what it is.
+
 ## 0.5.1
 - **Notes Dim is now called Station Notes.** Same app: updating keeps notes, vault, backups, Pro key and sync. On desktop, backups move to Documents/Station Notes/backups (old ones move too), and Android exports go to Downloads/Station Notes.
 - Practice exam (study AI, Pro): 5 multiple-choice questions drawn from the note, one at a time, with an explanation for each answer and a score at the end. Answer with the keyboard (1–4 or A–D); can be saved as a note.
