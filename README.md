@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="docs/imagens/icone.png" width="112" alt="Notes Dim icon"/>
+<img src="docs/imagens/icone.png" width="112" alt="Station Notes icon"/>
 
-# Notes Dim
+# Station Notes
+
+*Formerly Notes Dim. Same app, same data: updating from Notes Dim keeps notes, vault, backups and Pro.*
 
 A note-taking app for studying: an infinite canvas for mind maps, sticky notes, arrows and freehand drawing, plus plain text notes.
 Windows, Linux and Android. No account, no ads, no telemetry.
@@ -21,7 +23,7 @@ Windows, Linux and Android. No account, no ads, no telemetry.
 
 **Canvas**
 - Sticky notes, rectangles, ellipses, frames (moving a frame moves what's inside it) and ready-made tables
-- Notes move by the strip at their top; sides, bottom and corners resize, with wide grab areas on touch screens
+- Notes move by dragging them on desktop, or by the strip at their top on touch screens; sides, bottom and corners resize, with wide grab areas on touch screens
 - Arrows with heads, colors, dashes, labels and draggable curves
 - Freehand drawing: pen, highlighter and an eraser that only erases where it passes
 - Everything snaps to the dot grid (hold Alt to move freely), alignment guides, minimap and search inside the canvas
@@ -72,9 +74,9 @@ Same features as the desktop version, adapted for touch: long-press the backgrou
 
 Grab the files from the [latest release](https://github.com/Fred-22-glitch/notes-dim/releases/latest).
 
-- **Windows:** `Notes-Dim-Instalador-x.y.z.exe` (installer) or `Notes-Dim-Portatil-x.y.z.zip` (portable: unzip and run `Notes Dim.exe`). The installer isn't code-signed, so SmartScreen may warn you: *More info → Run anyway*.
-- **Linux:** `Notes-Dim-x.y.z-amd64.deb` (Ubuntu, Debian: `sudo apt install ./Notes-Dim-x.y.z-amd64.deb`) or `Notes-Dim-x.y.z-x86_64.AppImage` (`chmod +x`, then run).
-- **Android:** `Notes-Dim-x.y.z.apk`. You'll need to allow installing apps from unknown sources for your browser or file manager.
+- **Windows:** `Station-Notes-Instalador-x.y.z.exe` (installer) or `Station-Notes-Portatil-x.y.z.zip` (portable: unzip and run `Station Notes.exe`). The installer isn't code-signed, so SmartScreen may warn you: *More info → Run anyway*.
+- **Linux:** `Station-Notes-x.y.z-amd64.deb` (Ubuntu, Debian: `sudo apt install ./Station-Notes-x.y.z-amd64.deb`) or `Station-Notes-x.y.z-x86_64.AppImage` (`chmod +x`, then run).
+- **Android:** `Station-Notes-x.y.z.apk`. You'll need to allow installing apps from unknown sources for your browser or file manager.
 
 The installed Windows version and the Android app check GitHub Releases for updates and install them from inside the app (the Windows installer is verified against the published SHA-256). The portable and Linux versions open the release page instead.
 
@@ -94,7 +96,7 @@ No account, no ads, no analytics. Notes stay on your device and in the folder yo
 
 Use [Issues](https://github.com/Fred-22-glitch/notes-dim/issues/new/choose). Reports in English or Portuguese are fine.
 
-## Notes Dim Pro
+## Station Notes Pro
 
 Everything above is free. Pro is a one-time payment (no subscription) that adds:
 
@@ -104,18 +106,18 @@ Everything above is free. Pro is a one-time payment (no subscription) that adds:
 - Text → mind map from headings, and the essay map template
 - Notebook PDF and share image without the watermark, plus extra paper styles and colors
 
-You get an activation key by email and paste it under ⚙ → Notes Dim Pro. It's checked offline; no account needed.
+You get an activation key by email and paste it under ⚙ → Station Notes Pro. It's checked offline; no account needed.
 
 ## Support
 
 If you'd like to support development without buying Pro:
 
 - **Ko-fi** (card or PayPal): https://ko-fi.com/glitch22f
-- **Pix** (Brazil only): [payment link](https://nubank.com.br/cobrar/xx14o/6ade9685-dae0-492a-bbc8-c0c2d7317304), or in the app under ⚙ → Support Notes Dim
+- **Pix** (Brazil only): [payment link](https://nubank.com.br/cobrar/xx14o/6ade9685-dae0-492a-bbc8-c0c2d7317304), or in the app under ⚙ → Support Station Notes
 
 ## License
 
-Free to use on any number of devices. Notes Dim is proprietary software: this repository contains releases and documentation, not source code. See [LICENSE](LICENSE).
+Free to use on any number of devices. Station Notes is proprietary software: this repository contains releases and documentation, not source code. See [LICENSE](LICENSE).
 
 Built with React, React Flow, TipTap, Tauri, Capacitor and Fontsource, among others. The full list of third-party licenses is in the app under ⚙ → Open source licenses.
 
