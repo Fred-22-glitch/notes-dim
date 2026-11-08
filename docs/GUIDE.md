@@ -147,9 +147,9 @@ The same guide as in the app (⚙ → How it works). Labels below are from the E
 - If the same note changes on two devices at once, the newest stays and the other is kept as a "(conflict)" copy. A note deleted for good on one device goes to the trash on the others.
 - Windows asks for firewall permission the first time: allow it on private networks. Guest networks usually block devices from seeing each other.
 
-## Notes Dim Pro
+## Station Notes Pro
 
-- ⚙ → Notes Dim Pro shows what Pro includes, how the study AI is expected to run on your device (RAM and CPU), how to buy it (Ko-fi) and where to paste the activation key.
+- ⚙ → Station Notes Pro shows what Pro includes, how the study AI is expected to run on your device (RAM and CPU), how to buy it (Ko-fi) and where to paste the activation key.
 - With device sync, the key activates Pro on your other devices automatically.
 
 ## Updates
