@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.5.8
+- Built-in spell checker, the same on desktop and Android (Hunspell with the app language's dictionary, on-device, nothing is sent anywhere): misspelled words get a red wavy underline; tap one (phone) or right-click (desktop) for suggestions, ignore or add to dictionary. Toggle in Settings → Note text. Spelling only, not grammar.
+- Canvas reworked with one gesture per action, identical on desktop and phone: one click/tap selects a block; dragging moves the whole block; double-click/tap (or the pencil on the block bar) edits the text; double-click on the background creates a sticky note. Note links open with one click.
+- Arrows: one click/tap selects; dragging the arrow bends it (the middle dot is gone); dragging the end of a selected arrow reconnects it to another side or block; double-click writes a label; Delete removes it. Bending an arrow on desktop no longer moves the sticky note.
+- Android: the arrow handles work again on the sides of short sticky notes (their touch area used to sit inside the block).
+- Uncolored sticky notes are no longer transparent in the Notebook, Graph paper and Coffee themes (desktop and Android).
+- Bulleted lists: Backspace on a bullet removes the marker; the next Backspace deletes the empty line instead of bringing the bullet back.
+- Note list search: fixed the "Maximum call stack size exceeded" error when a note sat outside any folder.
+- Android: the new folder dialog opens above the side list.
+- Drawing: smooth strokes (the pen gets thicker where you press), a separate drawing layer with sharp zoom, and resting palms are detected automatically (pen writes, two fingers pan and zoom). Built-in dictation on desktop and Android. The hand button and "Voice note" in the New menu are gone.
+- Text notes on phones: no extra gap and line under the sheet.
+
 ## 0.5.2
 - Desktop: fixed auto-update. From 0.5.0 to 0.5.1 the installer was closed together with the app and the old version stayed. Anyone on 0.5.0 gets 0.5.2 normally.
 - Export always opens "Save as" to pick the folder and file name (on Android, the system file manager). A notice with the file name shows at the end.
