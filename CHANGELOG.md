@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.9
+- Numbered lists: a divider (—) inserted inside a list now goes after the list, and the next line has no number. Before, the divider landed inside the item and everything typed after kept the numbering (4, 5, 6…). A new list after it starts at 1, and so does the part left over when an item in the middle is turned off.
+- Pressing Enter twice on an empty line resets formatting: it leaves the list, removes the heading and brings alignment back to left (center, right or justified), without opening the alignment menu.
+- Backspace right after a divider or image deletes it; the list bullet no longer comes back.
+- Image at the end of a note: there is always a line below it to keep writing.
+
 ## 0.5.8
 - Built-in spell checker, the same on desktop and Android (Hunspell with the app language's dictionary, on-device, nothing is sent anywhere): misspelled words get a red wavy underline; tap one (phone) or right-click (desktop) for suggestions, ignore or add to dictionary. Toggle in Settings → Note text. Spelling only, not grammar.
 - Canvas reworked with one gesture per action, identical on desktop and phone: one click/tap selects a block; dragging moves the whole block; double-click/tap (or the pencil on the block bar) edits the text; double-click on the background creates a sticky note. Note links open with one click.
